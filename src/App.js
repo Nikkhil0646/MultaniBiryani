@@ -6,7 +6,8 @@ import {
   useNavigationType
 } from "react-router-dom";
 import FullScreen from "./pages/FullScreen";
-
+import Gallery from "./pages/Gallery";
+import OURMENU from "./pages/OURMENU";
 
 function App() {
   const action = useNavigationType();
@@ -29,13 +30,15 @@ function App() {
         metaDescription = "Welcome to Multani Biryani";
         break;
 
-        break;
       case "/OURMENU":
         title = "Our Menu"; // Set title for OUR MENU page
         metaDescription = "Explore our delicious biryani menu"; // Set meta description for OUR MENU page
         break;
-      // Add more cases for other pages if needed
-    
+
+      case "/GALLERY":
+        title = "Gallery";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -55,7 +58,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FullScreen />} />
-      <Route path="/menu" element={"/OURMENU" }/>
+      <Route path="/OURMENU" element={<OURMENU/> }/>
+      <Route path="/Gallery" element={<Gallery/>} />
     </Routes>
   );
 }

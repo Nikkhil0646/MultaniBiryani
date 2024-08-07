@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 import styles from "./Component.module.css";
+imoprt carouss
+
 
 const Component = ({ className = "" }) => {
   return (

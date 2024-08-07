@@ -1,0 +1,81 @@
+.galleryChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .photoGallery {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 73px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+  }
+  .galleryBackground {
+    border: 0;
+    background-color: #9b9b9b;
+    height: 227px;
+    width: 294px;
+    outline: 0;
+    position: absolute;
+    top: 55px;
+    left: 9px;
+  }
+  .arrowDownUndefinedGlyphParent {
+    align-self: stretch;
+    height: 282px;
+    position: relative;
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .frameChild,
+  .frameItem {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    min-height: 160px;
+  }
+  .vectorParent {
+    width: 292px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-17xl);
+  }
+  .galleryItem {
+    width: 292px;
+    height: 125px;
+    position: relative;
+  }
+  .gallery {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-xs) 33px var(--padding-lgi) var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-2xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }

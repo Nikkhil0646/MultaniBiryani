@@ -120,7 +120,7 @@ const FullScreen = () => {
                     <div className={styles.delights}>Delights</div>
                   </div>
                   <div className={styles.testimonialDescription}>
-                    <div className={styles.sensationalFlavorsAnd}>
+                    <div className={styles.relaxInStyle}>
                       {`SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
                       DELIGHTS, CREATING AN UNFORGETTABLE DINING for all `}
                     </div>
@@ -181,10 +181,10 @@ const FullScreen = () => {
                   <div className={styles.footerRating}>
                     <div className={styles.footerRatingContent}>
                       <div className={styles.google}>
-                        <span>G</span>
+                        <span className={styles.g}>G</span>
                         <span className={styles.o}>o</span>
                         <span className={styles.o1}>o</span>
-                        <span>g</span>
+                        <span className={styles.g}>g</span>
                         <span className={styles.l}>l</span>
                         <span className={styles.o}>e</span>
                       </div>
@@ -226,7 +226,6 @@ const FullScreen = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className={styles.footerLogo}>
                   <img
                     className={styles.multaniBiryaniMainLogo1}
@@ -234,7 +233,7 @@ const FullScreen = () => {
                     src="/multani-biryani-main-logo-11@2x.png"
                   />
                 </div>
-
+                
                 <div className={styles.footerSocial}>
                   <div className={styles.footerSocialIcons}>
                     <img
@@ -255,6 +254,7 @@ const FullScreen = () => {
                   </div>
                 </div>
               </div>
+              <div className={styles.address}>512, Plot No:_ 516, KIIT Rd, Patia,Bhubaneswar, Odisha - 751024</div>
             </div>
           </div>
         </div>

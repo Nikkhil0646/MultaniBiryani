@@ -355,16 +355,16 @@
   }
 
   .brandName{
-    padding-top: 30px;
+    padding-top: 50px;
   }
 
   .multani {
-    font-size: 150px;
+    font-size: 130px;
     margin-bottom: 50px;
   }
 
   .biryani {
-    font-size: 98px;
+    font-size: 90px;
   }
   
   .menuNavigation {
@@ -383,7 +383,8 @@
 
   .navigation {
     min-height: 60px; /* Further increase minimum height for larger screens */
-    font-size: 24px; /* Adjust font size for larger screens */
+    font-size: 18px; /* Adjust font size for larger screens */
+    font-weight: 100px;
   }
 }
 

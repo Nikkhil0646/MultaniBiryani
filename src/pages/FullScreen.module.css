@@ -143,7 +143,8 @@
     height: 250px;
     /* Increase height for desktop */
   }
-  .whyPeoplesChoose{
+
+  .whyPeoplesChoose {
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 30px;
@@ -172,11 +173,11 @@
   }
 
 
-  .testimonialHeaderItems{
+  .testimonialHeaderItems {
     font-size: 22px;
   }
 
-  
+
 
 
 }
@@ -184,14 +185,12 @@
 /* Responsive adjustments for desktop */
 @media (min-width: 1023px) {
 
-
-  
   .offer {
-    height: 350px;
+    height: 380px;
     /* Increase height for desktop */
   }
 
-  .whyPeoplesChoose{
+  .whyPeoplesChoose {
     padding-top: 40px;
     font-size: 40px;
     padding-bottom: 20px;
@@ -204,38 +203,32 @@
 
   }
 
-  .testimonialHeaderItems{
+  .testimonialHeaderItems {
     font-size: 28px;
   }
 
-  .ambiencepart{
+  .ambiencepart {
     margin: 20px;
   }
 
-  .relaxInStyle{
+  .relaxInStyle {
     font-size: 22px;
   }
 
-  .hospitalitypart{
+  .hospitalitypart {
     margin: 20px;
   }
 
-  .hereAreSome{
+  .hereAreSome {
     font-size: 22px;
   }
 
-  .delightspart{
+  .delightspart {
     padding: 20px;
   }
 
 
-  .testimonialDescription{
-    font-size: 22px;
-  }
 
-  .sensationalFlavorsAnd{
-    font-size: 200px;
-  }
 
   .grabOur {
     font-size: 100px;
@@ -251,39 +244,16 @@
     margin-bottom: 0px;
   }
 
-  
+  .ppls {
+    margin-bottom: 80px;
+  }
 
+  .bcd77feef1331310a33c161e0cc002Icon {
+    height: 700px;
+  }
 }
 
 
-/* Responsive adjustments for bigger desktop */
-@media (min-width: 1440px) {
-  .offer {
-    height:  450px;
-    /* Increase height for desktop */
-  }
-
-  .cabfcc101fa6f6d99b3c07e9997f7cIcon {
-    height: 380px;
-
-  }
-
-  .grabOur {
-    font-size: 140px;
-    margin-bottom: -20px;
-  }
-
-  .offer1 {
-    font-size: 100px;
-  }
-
-  .onBiryani {
-    font-size: 60px;
-    margin-bottom: 0px;
-  }
-
-
-}
 
 
 .offerWrapper {
@@ -551,8 +521,6 @@
 }
 
 .writeReviewButtonBackground {
-  height: 100%;
-  width: 100%;
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -564,6 +532,7 @@
   border: 0.5px solid var(--color-white);
   box-sizing: border-box;
   align-items: center;
+  justify-content: center;
 }
 
 .writeAReview {
@@ -577,8 +546,8 @@
 .writeReviewButtonBackgroundParent {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-9xs) var(--padding-base) var(--padding-8xs) var(--padding-mid);
   position: relative;
   white-space: nowrap;
@@ -681,20 +650,15 @@
   flex-direction: row;
   align-items: center;
   padding: 0 20px;
-  /* Add padding to prevent cutting off */
   box-sizing: border-box;
-  /* Ensure padding is included in width */
   overflow-x: auto;
   height: 400px;
-  /* Allow horizontal scrolling if necessary */
 
 }
 
 
 
 
-
-@media (min-width=425px) {}
 
 .team {
   flex: 1;
@@ -713,6 +677,32 @@
   text-align: center;
   font-size: 58px;
   color: var(--color-white);
+}
+
+@media (min-width: 1024px) {
+
+  .teamWrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 650px;
+  }
+
+  .team {
+    height: 650px;
+  }
+
+  .bcd77feef1331310a33c161e0cc002Icon {
+    height: 650px;
+  }
+
+  .our {
+    font-size: 112px;
+  }
+
+  .team1 {
+    margin-top: -80px;
+    font-size: 80px;
+  }
 }
 
 .footerAddressSeparator {
@@ -1014,6 +1004,7 @@
 }
 
 .footerForm {
+  padding-left: 20px;
   width: 170px;
   flex-direction: column;
   align-items: center;
@@ -1030,49 +1021,58 @@
   padding: var(--padding-lg) var(--padding-4xs) var(--padding-11xl);
   font-size: 8px;
   color: rgba(255, 255, 255, 0.5);
+  gap: 5px;
 }
 
-@media (min-width: 767px) {
-
-  
-
-  .reviewContentWrapper{
-  margin-top: 30px;
-  height: 250px;
-  gap: 0px;
+.address {
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 20px;
 }
 
-.reviewStars{
-  display: flex;
-  flex-direction: row;
+@media (min-width: 767px) and (max-width: 1023px) {
+
+  .reviewContentWrapper {
+    margin-top: 30px;
+    height: 250px;
+    gap: 0px;
+  }
+
+  .reviewStars {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-  
-}
 
-.androidSmall8{
-  height: 100px;
-  width: 160px;
-}
-
-
-.writeAReview{
-  font-size: 12px;
-}
-
-  .teamWrapper{
-    height: 500px;
   }
 
-  .team{
-    height: 500px;
-  }
-  .bcd77feef1331310a33c161e0cc002Icon{
-    height: 500px;
+  .androidSmall8 {
+    height: 100px;
+    width: 160px;
   }
 
 
-  .screenshot202407190609291{
+  .writeAReview {
+    font-size: 12px;
+  }
+
+  .teamWrapper {
+    height: 500px;
+  }
+
+  .team {
+    height: 500px;
+  }
+
+  .our {
+    padding-top: 5px;
+  }
+
+  .bcd77feef1331310a33c161e0cc002Icon {
+    height: 500px;
+  }
+
+  .screenshot202407190609291 {
     align-self: center;
     height: 370px;
   }
@@ -1095,7 +1095,7 @@
     font-size: 10px;
   }
 
-  .footerSocialIcons{
+  .footerSocialIcons {
     gap: 45px;
   }
 
@@ -1114,6 +1114,20 @@
   .socialIcons2 {
     height: 30px;
     width: 30px;
+  }
+
+  .testimonialDescription {
+    font-size: 16px;
+  }
+
+  .footerForm{
+    padding-left: 150px;
+  }
+
+  .address {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 24px;
   }
 
 }
@@ -1272,4 +1286,399 @@
   font-size: 32px;
   color: var(--color-white);
   font-family: var(--font-bricolage-grotesque-48pt);
+}
+
+
+
+@media (min-width: 1024px) {
+
+  .whyPeoplesChoose {
+    padding-top: 80px;
+    font-size: 38px;
+    padding-bottom: 20px;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .footerAppStore {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footerAppStoreImage {
+    height: 400px;
+  }
+
+  .screenshot202407190609291 {
+    align-self: center;
+    height: 370px;
+  }
+
+
+  .cameraSparklesUndefined {
+    height: 50px;
+    width: 50px;
+  }
+
+  .peopleUndefinedGlyphUn {
+    height: 50px;
+    width: 50px;
+  }
+
+  .testimonialHeaderItems {
+    font-size: 30px;
+  }
+
+  .ambiencepart {
+    gap: 20px;
+  }
+
+  .foodCakeUndefinedGlyph {
+    height: 50px;
+    width: 650px;
+    padding-bottom: 20px;
+  }
+
+  .testimonialContent {
+    padding-bottom: 50px;
+  }
+
+  .relaxInStyle {
+    font-size: 25px;
+  }
+
+  .hospitalitypart {
+    gap: 20px;
+  }
+
+  .hereAreSome {
+    font-size: 25px;
+  }
+
+  .delights {
+    padding-bottom: 18px;
+  }
+
+  .ppls {
+    margin-bottom: 20px;
+  }
+
+
+  .reviewHeading {
+    margin-top: -100px;
+    align-items: center;
+  }
+
+
+  .reviewContentWrapper {
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .reviewStars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .androidSmall8 {
+    height: 120px;
+    width: 220px;
+  }
+
+  .reviewTitle {
+    padding: 20px;
+  }
+
+  .reviewContentWrapper {
+    margin-bottom: 50px;
+  }
+
+  .writeReviewButtonBackground {
+    border-radius: 20px;
+  }
+
+
+  .writeAReview {
+    padding: 5px;
+    font-size: 22px;
+  }
+
+  .footerAddressSeparator{
+    font-size: 80px;
+  }
+
+  .div{
+    font-size: 80px;
+  }
+
+  .footerRatingContent{
+    height: 60px;
+    width: 70px;
+  }
+  
+  .google{
+    height: 40px;
+  }
+
+  .reviews{
+    padding-top: 5px;
+    font-size: 65px;
+  }
+
+  .customers{
+    margin-left: -6px;
+    margin-top: -5px;
+    font-size: 65px;
+  }
+
+  .g {
+    font-size: 60px;
+  }
+
+  .o{
+    font-size: 60px;
+  }
+
+  .o1 {
+    font-size: 60px;
+  }
+
+  .l{
+    font-size: 60px;
+  }
+
+  .ratings{
+    height: 2px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+/* Responsive adjustments for bigger desktop */
+@media (min-width: 1440px) {
+
+
+  .offer {
+    height: 450px;
+    /* Increase height for desktop */
+  }
+
+  .cabfcc101fa6f6d99b3c07e9997f7cIcon {
+    height: 380px;
+
+  }
+
+  .grabOur {
+    font-size: 140px;
+    margin-bottom: -20px;
+  }
+
+  .offer1 {
+    font-size: 100px;
+  }
+
+  .onBiryani {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+
+  .teamWrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 700px;
+  }
+
+  .team {
+    height: 700px;
+  }
+
+  .bcd77feef1331310a33c161e0cc002Icon {
+    height: 700px;
+  }
+
+  .whyPeoplesChoose {
+    padding-top: 80px;
+    font-size: 60px;
+    padding-bottom: 20px;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .cabfcc101fa6f6d99b3c07e9997f7cIcon {
+    height: 320px;
+
+  }
+
+  .cameraSparklesUndefined {
+    height: 80px;
+    width: 80px;
+  }
+
+  .peopleUndefinedGlyphUn {
+    height: 80px;
+    width: 80px;
+  }
+
+  .testimonialHeaderItems {
+    font-size: 40px;
+  }
+
+  .ambiencepart {
+    gap: 20px;
+    margin: 40px;
+  }
+
+  .foodCakeUndefinedGlyph {
+    height: 90px;
+    width: 650px;
+    padding-bottom: 20px;
+  }
+
+  .testimonialContent {
+    padding-bottom: 50px;
+  }
+
+  .relaxInStyle {
+    font-size: 34px;
+  }
+
+  .hospitalitypart {
+    gap: 20px;
+    margin: 40px;
+  }
+
+  .hereAreSome {
+    font-size: 34px;
+  }
+
+  .delights {
+    padding-bottom: 18px;
+  }
+
+  .delightspart {
+    padding: 20px;
+  }
+
+  .reviewHeading {
+    margin-top: -100px;
+    align-items: center;
+  }
+
+
+  .reviewContentWrapper {
+    margin-top: 0px;
+    height: 300px;
+  }
+
+  .reviewStars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .androidSmall8 {
+    height: 150px;
+    width: 300px;
+  }
+
+  .reviewTitle {
+    padding: 20px;
+  }
+
+
+  .writeReviewButtonBackground {
+    border-radius: 20px;
+  }
+
+
+  .writeAReview {
+    padding: 5px;
+    font-size: 22px;
+  }
+
+  .footerAppStore {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .footerAppStoreImage {
+    height: 500px;
+  }
+
+  .screenshot202407190609291 {
+    align-self: center;
+    height: 460px;
+  }
+
+  .writeYourQueries{
+    font-size: 18px;
+    padding: 0%;
+  }
+
+  .footerForm {
+    height: 180px;
+    gap: 50px;
+  }
+
+  .footerLogo {
+    width: 150px;
+  }
+
+  .userCicrleIcon{
+    height: 30px;
+    width: 30px;
+  }
+
+  .footerForm{
+    padding-left: 100px;
+    width: 400px;
+  }
+
+  .address{
+    margin-left: 300px;
+    font-size: 40px;
+  }
+
+  .multaniBiryaniMainLogo1 {
+    height: 70px;
+  }
+
+  .footerForm{
+    width: 300px;
+    gap: 60px;
+  }
+
+  .footerBranding {
+    font-size: 10px;
+    height: 250px;
+  }
+
+  .footerSocialIcons {
+    gap: 45px;
+  }
+
+  .socialIcons {
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+  }
+
+  .socialIcons1,
+  .socialIcons2 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .socialIcons2 {
+    height: 30px;
+    width: 30px;
+  }
+
 }
