@@ -1,0 +1,461 @@
+.mixVegChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .mixVeg1 {
+    text-decoration: none;
+    height: 34px;
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 96px;
+  }
+  .blockParent {
+    width: 208px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .cc60040982745633c1bf2492066174 {
+    position: absolute;
+    width: calc(100% - 13px);
+    top: 7px;
+    right: 4px;
+    left: 9px;
+    height: 63px;
+    display: none;
+  }
+  .d8320e768e5ebbcf09da6911667e50Icon {
+    position: absolute;
+    width: calc(100% - 16px);
+    top: 12px;
+    right: 8px;
+    left: 8px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 61px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .mixVegImage {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .sabziKeemaMasala {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+  .kg,
+  .prices {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .prices {
+    text-decoration: none;
+    color: inherit;
+    min-width: 19px;
+  }
+  .kg {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .emptyLabel,
+  .pricesParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .emptyLabel {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesParent {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg2 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .kgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .mixVegPricing,
+  .priceLabels {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .priceLabels {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .mixVegPricing {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .currencyLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div1 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .currencyLabel1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div2 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .currencyLabelParent,
+  .priceValues {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .currencyLabelParent {
+    gap: var(--gap-mid);
+  }
+  .priceValues {
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .mixVegDetails,
+  .mixVegName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .mixVegName {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .mixVegDetails {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .mixVegContainer,
+  .mixVegContent,
+  .page {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .mixVegContent {
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .mixVegContainer,
+  .page {
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .mixVegContainer {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-xs);
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .page {
+    flex-direction: column;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .dd776aed76f9c9caaf99a93f9b8e2 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 76px;
+    height: 72px;
+  }
+  .ccf1f4585b05875c07a2c008b230f2Icon {
+    position: absolute;
+    width: calc(100% - 3px);
+    top: 12px;
+    right: 1px;
+    left: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 60px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .dalContent {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .kg3,
+  .prices1,
+  .yellowDalFry {
+    position: relative;
+    display: inline-block;
+  }
+  .yellowDalFry {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    min-width: 103px;
+    white-space: nowrap;
+  }
+  .kg3,
+  .prices1 {
+    font-weight: 500;
+    min-width: 19px;
+    flex-shrink: 0;
+  }
+  .kg3 {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .dalEmpty,
+  .pricesGroup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dalEmpty {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesGroup {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg4 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg5 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .frameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .dalPriceLabels,
+  .dalPricing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .dalPriceLabels {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .dalPricing {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div3 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .dalCurrency {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div4 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .dalCurrency1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div5 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .dalCurrencyParent,
+  .dalPriceValues {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dalCurrencyParent {
+    gap: var(--gap-mid);
+  }
+  .dalPriceValues {
+    padding: 0 0 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .dalDetails,
+  .dalName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dalName {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .dalDetails {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .dalContentParent,
+  .mixVeg {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .dalContentParent {
+    width: 289px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    flex-direction: row;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .mixVeg {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: var(--padding-xs) 35px 372px var(--padding-5xl);
+    gap: var(--gap-xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }

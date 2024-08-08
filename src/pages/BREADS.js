@@ -1,6 +1,6 @@
-import styles from "./BREAD.module.css";
+import styles from "./BREADS.module.css";
 
-const BREAD = () => {
+const BREADS = () => {
   return (
     <div className={styles.bread}>
       <img className={styles.breadChild} alt="" src="/frame-188.svg" />
@@ -244,4 +244,7 @@ const BREAD = () => {
   );
 };
 
-export default BREAD;
+
+
+
+export default BREADS;

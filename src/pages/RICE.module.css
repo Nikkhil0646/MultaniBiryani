@@ -1,0 +1,377 @@
+.riceChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .arrowDownUndefinedGlyphWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .rice1 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 54px;
+  }
+  .frameParent {
+    width: 183px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .f3ab45aa4a683b1b43383a9ae9028eIcon {
+    position: absolute;
+    width: calc(100% - 10px);
+    top: 7px;
+    right: 5px;
+    left: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 68px;
+    object-fit: cover;
+  }
+  .f3ab45aa4a683b1b43383a9ae9028eWrapper {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .kg,
+  .plainRice,
+  .prices {
+    position: relative;
+    display: inline-block;
+  }
+  .plainRice {
+    text-decoration: none;
+    color: inherit;
+    min-width: 75px;
+  }
+  .kg,
+  .prices {
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .prices {
+    text-decoration: none;
+    color: inherit;
+    min-width: 19px;
+  }
+  .kg {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .kgWrapper,
+  .pricesParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgWrapper {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesParent {
+    flex-direction: column;
+  }
+  .kg1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .frameParent2,
+  .kgContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgContainer {
+    flex-direction: column;
+    padding: var(--padding-8xs) 0 0;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .frameParent2 {
+    flex-direction: row;
+    gap: var(--gap-7xl);
+  }
+  .div,
+  .div1 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .div1 {
+    min-width: 34px;
+  }
+  .parent {
+    flex-direction: row;
+    gap: var(--gap-mid);
+    font-size: var(--font-size-xs);
+  }
+  .frameDiv,
+  .frameParent1,
+  .parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent1 {
+    flex-direction: column;
+    gap: var(--gap-6xs);
+  }
+  .frameDiv {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+  }
+  .frameWrapper,
+  .plainRiceParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .plainRiceParent {
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+  }
+  .frameWrapper {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .frameContainer {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .cc60040982745633c1bf2492066174 {
+    position: absolute;
+    width: calc(100% - 8px);
+    top: 1px;
+    right: 4px;
+    left: 4px;
+    height: 63px;
+  }
+  .e0be1de703dcdc166e948bc6611Icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .cc60040982745633c1bf2492066174Parent {
+    height: 66px;
+    flex: 1;
+    position: relative;
+  }
+  .frameWrapper1 {
+    width: 76px;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 var(--padding-8xs) var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .gheeRice,
+  .kg2,
+  .prices1 {
+    position: relative;
+    display: inline-block;
+  }
+  .gheeRice {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    min-width: 77px;
+  }
+  .kg2,
+  .prices1 {
+    font-weight: 500;
+    min-width: 19px;
+    flex-shrink: 0;
+  }
+  .kg2 {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .kgFrame,
+  .pricesGroup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgFrame {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesGroup {
+    flex-direction: column;
+  }
+  .kg3 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .frameParent5,
+  .kgWrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgWrapper1 {
+    flex-direction: column;
+    padding: var(--padding-8xs) 0 0;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .frameParent5 {
+    flex-direction: row;
+    gap: var(--gap-7xl);
+  }
+  .div2,
+  .div3 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .div3 {
+    min-width: 34px;
+  }
+  .group {
+    flex-direction: row;
+    gap: var(--gap-mid);
+    font-size: var(--font-size-xs);
+  }
+  .frameParent4,
+  .frameWrapper3,
+  .group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent4 {
+    flex-direction: column;
+    gap: var(--gap-6xs);
+  }
+  .frameWrapper3 {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+  }
+  .frameWrapper2,
+  .gheeRiceParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .gheeRiceParent {
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+  }
+  .frameWrapper2 {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .frameParent3 {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .frameGroup,
+  .rice,
+  .riceInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .rice,
+  .riceInner {
+    text-align: left;
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .riceInner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-smi) 0 var(--padding-3xs);
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .rice {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-xs) var(--padding-5xl) 373px;
+    box-sizing: border-box;
+    gap: 11px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+  }

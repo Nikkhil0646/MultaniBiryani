@@ -1,0 +1,224 @@
+.dessertChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .dessert1 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 98px;
+  }
+  .structure {
+    width: 205px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .itemCell {
+    align-self: stretch;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .matkaPhirni {
+    text-decoration: none;
+    color: inherit;
+    min-width: 93px;
+    white-space: nowrap;
+  }
+  .div,
+  .matkaPhirni,
+  .prices {
+    position: relative;
+    display: inline-block;
+  }
+  .prices {
+    text-decoration: none;
+    font-weight: 500;
+    color: inherit;
+    min-width: 19px;
+  }
+  .div {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: var(--color-darkorange-300);
+    min-width: 28px;
+    margin-top: -2px;
+  }
+  .priceLabel {
+    flex-direction: column;
+  }
+  .itemDetails,
+  .itemName,
+  .itemPrice,
+  .priceLabel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .itemPrice {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-7xs);
+  }
+  .itemDetails,
+  .itemName {
+    flex-direction: column;
+  }
+  .itemName {
+    gap: var(--gap-mini);
+  }
+  .itemDetails {
+    padding: var(--padding-6xs) 0 0;
+  }
+  .itemRow,
+  .itemRowChild {
+    align-self: stretch;
+    overflow: hidden;
+  }
+  .itemRow {
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .itemRowChild {
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    flex-shrink: 0;
+  }
+  .div1,
+  .dudhiHalwa,
+  .prices1 {
+    position: relative;
+    display: inline-block;
+  }
+  .dudhiHalwa {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    min-width: 93px;
+    white-space: nowrap;
+  }
+  .div1,
+  .prices1 {
+    font-weight: 500;
+    min-width: 19px;
+  }
+  .div1 {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: var(--color-darkorange-300);
+    min-width: 31px;
+    margin-top: -2px;
+  }
+  .pricesParent {
+    flex-direction: column;
+  }
+  .dudhiHalwaParent,
+  .frameWrapper,
+  .itemRowInner,
+  .pricesParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-7xs);
+  }
+  .dudhiHalwaParent,
+  .itemRowInner {
+    flex-direction: column;
+  }
+  .dudhiHalwaParent {
+    gap: var(--gap-mini);
+  }
+  .itemRowInner {
+    padding: var(--padding-6xs) 0 0;
+  }
+  .itemRow1 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .container,
+  .dessert,
+  .grid,
+  .itemRow1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .grid {
+    align-self: stretch;
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .container,
+  .dessert {
+    box-sizing: border-box;
+    text-align: left;
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .container {
+    align-self: stretch;
+    height: 210px;
+    flex-direction: row;
+    padding: 0 var(--padding-2xs) 0 var(--padding-xs);
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .dessert {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-xs) var(--padding-5xl) 372px;
+    gap: var(--gap-xs);
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+  }

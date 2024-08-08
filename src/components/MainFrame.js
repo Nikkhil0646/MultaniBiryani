@@ -24,12 +24,12 @@ const MainFrame = ({ className = "" }) => {
             <div className={styles.menuNavigation}>
               <div className={styles.menuLinks}>
                 <div className={styles.menuContact}>
-                <div className={styles.menuContactLinkParent}>
-  <a href="/OURMENU" style={{ textDecoration: 'none', color: 'inherit' }}>
-    <div className={styles.menuContactLink} />
-    <div className={styles.ourMenu}>OUR MENU</div>
-  </a>
-</div>
+                  <div className={styles.menuContactLinkParent}>
+                    <a href="/OURMENU" style={{ textDecoration: "none", color: "inherit" }}>
+                      <div className={styles.menuContactLink} />
+                      <div className={styles.ourMenu}>OUR MENU</div>
+                    </a>
+                  </div>
                   <div className={styles.rectangleParent}>
                     <div className={styles.instanceChild} />
                     <div className={styles.contactUs}>CONTACT US</div>

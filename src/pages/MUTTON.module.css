@@ -1,0 +1,783 @@
+.muttonChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .arrowDownUndefinedGlyphWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .mutton1 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 92px;
+  }
+  .frameParent,
+  .muttonInner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frameParent {
+    width: 201px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .muttonInner {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .fd5d9d23c721867b8c05562261dcb2Icon {
+    position: absolute;
+    width: calc(100% - 10px);
+    top: 3px;
+    right: 5px;
+    left: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 68px;
+    object-fit: cover;
+  }
+  .dishNamesColumn {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .kg,
+  .muttonStew,
+  .prices {
+    position: relative;
+    display: inline-block;
+  }
+  .muttonStew {
+    text-decoration: none;
+    color: inherit;
+    min-width: 97px;
+  }
+  .kg,
+  .prices {
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .prices {
+    text-decoration: none;
+    color: inherit;
+    min-width: 19px;
+  }
+  .kg {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .kgWrapper,
+  .pricesParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgWrapper {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesParent {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg2 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .kgFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .priceColumn,
+  .priceValuesColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .priceValuesColumn {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .priceColumn {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div1 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 33px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div2 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .priceRowColumn,
+  .priceValues {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .priceValues {
+    gap: var(--gap-mid);
+  }
+  .priceRowColumn {
+    padding: 0 0 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .dishNameColumn,
+  .dishes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dishes {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .dishNameColumn {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .dishColumns {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .eb4593a9c14f857e0b93673a7f2e2eIcon {
+    position: absolute;
+    width: calc(100% - 10px);
+    top: 7px;
+    right: 5px;
+    left: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 67px;
+    object-fit: cover;
+  }
+  .eb4593a9c14f857e0b93673a7f2e2eWrapper {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-burlywood);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .muttonKeemaKalegi {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .kg3,
+  .prices1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 19px;
+    flex-shrink: 0;
+  }
+  .kg3 {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .frameDiv,
+  .pricesGroup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameDiv {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesGroup {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg4 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgWrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg5 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .kgWrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .frameGroup,
+  .frameWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frameGroup {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frameWrapper {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div3 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div4 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 33px;
+  }
+  .wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div5 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .frameContainer,
+  .frameParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent1 {
+    gap: var(--gap-mid);
+  }
+  .frameContainer {
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .dishColumnsInner,
+  .muttonKeemaKalegiParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .muttonKeemaKalegiParent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .dishColumnsInner {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .dishColumns1 {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .dishColumnsChild {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .kg6,
+  .muttonRezala,
+  .prices2 {
+    position: relative;
+    display: inline-block;
+  }
+  .muttonRezala {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    min-width: 107px;
+  }
+  .kg6,
+  .prices2 {
+    font-weight: 500;
+    min-width: 19px;
+  }
+  .kg6 {
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+    color: var(--color-black);
+    min-width: 23px;
+    z-index: 1;
+    margin-top: -2px;
+  }
+  .pricesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg7 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgWrapper3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg8 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .kgWrapper4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .frameParent2,
+  .frameWrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frameParent2 {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frameWrapper1 {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div6 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div7 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 33px;
+  }
+  .wrapper3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div8 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .frameParent3,
+  .frameWrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent3 {
+    gap: var(--gap-mid);
+  }
+  .frameWrapper2 {
+    padding: 0 0 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .dishColumnsInner1,
+  .muttonRezalaParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .muttonRezalaParent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .dishColumnsInner1 {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .dishColumns2,
+  .dishColumnsParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .dishColumns2 {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .dishColumnsParent {
+    width: 289px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-5xs);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .frameChild {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .muttonRoganJosh {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .kg9,
+  .prices3 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 19px;
+    flex-shrink: 0;
+  }
+  .kg9 {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .priceWeights,
+  .weightValue {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .weightValue {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .priceWeights {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg10 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .priceWeights1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg11 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .priceWeights2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .priceDetails,
+  .priceDetailsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .priceDetails {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .priceDetailsWrapper {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div9 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .currencyValues {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div10 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 33px;
+  }
+  .currencyValues1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div11 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 38px;
+  }
+  .finalPrice,
+  .finalPriceWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .finalPrice {
+    gap: var(--gap-mid);
+  }
+  .finalPriceWrapper {
+    padding: 0 var(--padding-9xs) 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .frameWrapper3,
+  .muttonRoganJoshParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .muttonRoganJoshParent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .frameWrapper3 {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .frameParent4 {
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .frameSection,
+  .mutton {
+    display: flex;
+    text-align: left;
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .frameSection {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-12xs) 0 var(--padding-2xs);
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .mutton {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-xs) 35px 142px var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-xs);
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+  }

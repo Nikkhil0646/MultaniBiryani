@@ -1,0 +1,438 @@
+.pannerChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .arrowDownUndefinedGlyphWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .panner1 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 89px;
+  }
+  .frameParent {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .cc60040982745633c1bf2492066174 {
+    position: absolute;
+    width: calc(100% - 13px);
+    top: 7px;
+    right: 4px;
+    left: 9px;
+    height: 63px;
+  }
+  .fa91d8176b7cf366255400bb5b5d3eIcon {
+    position: absolute;
+    width: calc(100% - 5px);
+    top: 2px;
+    right: 2px;
+    left: 3px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 73px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .productName {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: #ffc490;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .kg,
+  .pannerKadhai,
+  .prices {
+    position: relative;
+    display: inline-block;
+  }
+  .pannerKadhai {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    min-width: 109px;
+  }
+  .kg,
+  .prices {
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .prices {
+    text-decoration: none;
+    color: inherit;
+    min-width: 19px;
+  }
+  .kg {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .kgWrapper,
+  .priceList {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgWrapper {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .priceList {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg2 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .kgFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .variantMasala,
+  .variantPrices {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .variantPrices {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .variantMasala {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div1 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div2 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .priceSymbols,
+  .symbolList {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .symbolList {
+    gap: var(--gap-base);
+  }
+  .priceSymbols {
+    padding: 0 0 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .productVariants,
+  .variantNames {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .variantNames {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .productVariants {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .productDetails {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .productDetailsChild {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .pannerCornMasala {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .kg3,
+  .prices1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 19px;
+    flex-shrink: 0;
+  }
+  .kg3 {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .frameDiv,
+  .pricesParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameDiv {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .pricesParent {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg4 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .kgWrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg5 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .kgWrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .frameGroup,
+  .frameWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frameGroup {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frameWrapper {
+    width: 118px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .div3 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div4 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div5 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .frameContainer,
+  .frameParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent1 {
+    gap: var(--gap-base);
+  }
+  .frameContainer {
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+  }
+  .pannerCornMasalaParent,
+  .productDetailsInner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pannerCornMasalaParent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs-5);
+  }
+  .productDetailsInner {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .productDetails1 {
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .panner,
+  .pannerInner,
+  .productDetailsParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .productDetailsParent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .panner,
+  .pannerInner {
+    text-align: left;
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .pannerInner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-2xs) 0 var(--padding-xs);
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .panner {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-xs) var(--padding-5xl) 372px;
+    box-sizing: border-box;
+    gap: var(--gap-xs);
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+  }

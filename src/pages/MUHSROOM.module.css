@@ -1,0 +1,244 @@
+.muhsroomChild {
+    width: 18px;
+    height: 13px;
+    position: relative;
+    display: none;
+  }
+  .arrowDownUndefinedGlyph {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .arrowDownUndefinedGlyphWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .mushroom {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: inherit;
+  }
+  .frameParent {
+    width: 223px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .db17641d31c172d2b2739daf968cafIcon {
+    position: absolute;
+    width: calc(100% - 9px);
+    top: 6px;
+    right: 5px;
+    left: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 66px;
+    object-fit: cover;
+  }
+  .db17641d31c172d2b2739daf968cafWrapper {
+    height: 77px;
+    width: 76px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #ffc490;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .mushroomButterMasala {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+  .kg,
+  .prices {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .prices {
+    text-decoration: none;
+    color: inherit;
+    min-width: 19px;
+  }
+  .kg {
+    margin-top: -2px;
+    min-width: 23px;
+  }
+  .kgPlaceholder,
+  .weightUnit {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kgPlaceholder {
+    height: 8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+  }
+  .weightUnit {
+    flex-direction: column;
+    font-size: var(--font-size-7xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .kg1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 23px;
+  }
+  .weightUnit1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .kg2 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 15px;
+  }
+  .tableHeader,
+  .weightUnit2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .weightUnit2 {
+    flex-direction: column;
+    padding: var(--padding-8xs) 0 0;
+  }
+  .tableHeader {
+    flex-direction: row;
+    gap: 27.5px;
+  }
+  .div {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 34px;
+  }
+  .rupeeSymbol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div1 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .rupeeSymbol1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .div2 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 35px;
+  }
+  .priceValue {
+    flex-direction: row;
+    gap: var(--gap-base);
+    font-size: var(--font-size-xs);
+    color: var(--color-darkorange-300);
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .priceTable,
+  .priceTableWrapper,
+  .priceValue {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .priceTable {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .priceTableWrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-5xs);
+    font-family: var(--font-google-sans);
+  }
+  .masalaDetails,
+  .masalaDetailsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .masalaDetails {
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .masalaDetailsWrapper {
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-10xs);
+  }
+  .frameGroup,
+  .muhsroom,
+  .muhsroomInner {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    flex: 1;
+    border-radius: 10px;
+    background-color: var(--color-bisque);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: var(--padding-4xs);
+    gap: var(--gap-xs);
+  }
+  .muhsroom,
+  .muhsroomInner {
+    align-items: flex-start;
+    text-align: left;
+    font-family: var(--font-bricolage-grotesque-48pt);
+  }
+  .muhsroomInner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-2xs) 0 var(--padding-xs);
+    font-size: 16px;
+    color: var(--color-black);
+  }
+  .muhsroom {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-xs) var(--padding-5xl) 487px;
+    box-sizing: border-box;
+    gap: var(--gap-xs);
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkorange-100);
+  }
