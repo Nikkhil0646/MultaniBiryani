@@ -1,0 +1,105 @@
+.component3Parent {
+    position: relative;
+    overflow: hidden; /* Hide overflow to prevent scrollbars on the parent */
+  }
+  
+  .component3 {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition for scrolling */
+    width: 100%; /* Full width for the container */
+    height: 400px; /* Default height */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    white-space: nowrap; /* Prevent wrapping of child elements */
+  }
+  
+  .component3 > * {
+    flex: 0 0 auto; /* Prevent images from shrinking */
+    width: 100%; /* Make each image take the full width */
+    height: 100%; /* Maintain height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    scroll-snap-align: start; /* Snap alignment */
+    display: inline-block; /* Ensure images are displayed inline */
+  }
+  
+  
+/* Position the heading on top of the images */
+.specialities {
+    position: absolute; /* Positioning relative to the parent */
+    top: -5px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the heading */
+    color: white; /* Change color as needed */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+    z-index: 10; /* Ensure the heading is above the images */
+  }
+  
+  
+
+  /* Responsive height adjustments */
+@media (min-width: 375px) {
+    .component3 {
+      height: 100px; /* Decrease height for very small screens */
+    }
+
+    /* .specialities{
+        margin-left: -117px;
+        margin-top: 110px;
+    } */
+  }
+  
+  @media (max-width: 435px) {
+    .component3 {
+      height: 270px; /* Decrease height for small screens */
+    }
+/* 
+    .specialities{
+        margin-left: -117px;
+        margin-top: 110px;
+    } */
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .component3 {
+      height: 470px; /* Increase height for tablets */
+    }
+
+    .specialities{
+        font-size: 48px;
+        top: -20px;
+    }
+/* 
+    .specialities{
+        font-size: 45px;
+        margin-left: -205px;
+        margin-top: 210px;
+    } */
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1140px) {
+    .component3 {
+      height: 620px; /* Increase height for larger screens */
+    }
+
+    /* .specialities{
+        font-size: 68px;
+        margin-left: -250px;
+        margin-top: 280px;
+    } */
+  }
+  
+  @media (min-width: 1440px) {
+    .component3 {
+      height: 800px; /* Increase height for larger desktop screens */
+    }
+
+    /* .specialities{
+        font-size: 90px;
+        margin-left: -370px;
+        margin-top: 360px;
+    } */
+  }
+  

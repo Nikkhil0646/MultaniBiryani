@@ -1,6 +1,7 @@
 import Content from "../components/Content";
 import GalleryHeader from "../components/GalleryHeader";
 import MainFrame from "../components/MainFrame";
+import ScrollSlideshow from "../components/ScrollSlideshow";
 import styles from "./FullScreen.module.css";
 
 <style>
@@ -38,33 +39,7 @@ const FullScreen = () => {
       <div className={styles.galleryContentParent}>
         <div className={styles.galleryContent}>
           <GalleryHeader />
-
-          <section className={styles.component3Parent}>
-            <div className={styles.component3}>
-              <img
-                className={styles.component3Child}
-                loading="lazy"
-                alt=""
-                src="/frame-4@2x.png"
-              />
-              <img
-                className={styles.component3Item}
-                loading="lazy"
-                alt=""
-                src="/frame-5@2x.png"
-              />
-              <img
-                className={styles.component3Inner}
-                loading="lazy"
-                alt=""
-                src="/frame-6@2x.png"
-              />
-            </div>
-            <div className={styles.specialitiesWrapper}>
-              <h1 className={styles.specialities}>Specialities</h1>
-            </div>
-          </section>
-
+          <ScrollSlideshow />
           <div className={styles.testimonialContentParent}>
             <div className={styles.testimonialContent}>
               <div className={styles.ppls}>
@@ -162,6 +137,11 @@ const FullScreen = () => {
                   <div className={styles.our}>our</div>
                 </div>
                 <div className={styles.team1}>TEAM</div>
+                <div className={styles.hoverContent}>
+                  <p className={styles.hoverParagraph}>
+                  Step into Multani Biryani and meet our tight-knit team dedicated to crafting your perfect experience. From our expert Barista to our creative minds shaping the ambiance, each member plays a vital role. Friendly service, expertly brewed coffee, and creative culinary delights - it's all about creating memorable moments. Join us at Multani Biryani, where every visit is a blend of passion and perfection.
+                  </p>
+                </div>
               </div>
             </div>
             <div className={styles.footer}>
@@ -233,7 +213,7 @@ const FullScreen = () => {
                     src="/multani-biryani-main-logo-11@2x.png"
                   />
                 </div>
-                
+
                 <div className={styles.footerSocial}>
                   <div className={styles.footerSocialIcons}>
                     <img
@@ -254,7 +234,9 @@ const FullScreen = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.address}>512, Plot No:_ 516, KIIT Rd, Patia,Bhubaneswar, Odisha - 751024</div>
+              <div className={styles.address}>
+                512, Plot No:_ 516, KIIT Rd, Patia,Bhubaneswar, Odisha - 751024
+              </div>
             </div>
           </div>
         </div>

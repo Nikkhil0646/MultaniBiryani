@@ -48,7 +48,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 63px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .biryaniContainer {
   height: 77px;
@@ -102,7 +102,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 64px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .itemsAndPrices {
   height: 77px;
@@ -154,7 +154,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 67px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .e2f53738fa30a7e1cc88e61261c33Wrapper {
   height: 77px;
@@ -226,6 +226,17 @@
 .itemsBackground3 {
   flex-direction: row;
 }
+
+.frameChildWrapper {
+  height: 77px;
+  width: 76px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-burlywood);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
 .frameGroup {
   flex: 1;
   border-radius: var(--br-3xs);
@@ -247,7 +258,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 68px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .c7228d74b38305bd6c483b4417d749Wrapper {
   height: 77px;
@@ -299,7 +310,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 65px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .db17641d31c172d2b2739daf968cafWrapper {
   height: 77px;
@@ -471,7 +482,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 57px;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 1;
 }
 .cc60040982745633c1bf2492066174Group {
@@ -524,7 +535,7 @@
   max-width: 100%;
   overflow: hidden;
   height: 67px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .cec90baa0f32f80373d70a611Wrapper {
   height: 77px;
@@ -566,11 +577,11 @@
 .itemsBackground5,
 .ourMenu {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: flex;
+  justify-content: center;
 }
 .grid {
-  width: 290px;
+  width: 100%;
   flex-direction: column;
   gap: var(--gap-mini);
   text-align: left;
@@ -578,8 +589,11 @@
   color: var(--color-black);
   font-family: var(--font-bricolage-grotesque-48pt);
 }
+
+
 .ourMenu {
-  width: 425px;
+  display: flex;
+  width: 100;
   height: 1212px;
   background-color: var(--color-white);
   max-width: 100%;
@@ -590,4 +604,30 @@
   gap: 23px;
   line-height: normal;
   letter-spacing: normal;
+}
+
+
+
+@media (min-width: 767px)
+{
+  .grid {
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+
+  .ourMenu{
+    padding: 100px;
+    margin-bottom: 60px;
+  }
+
+  .menuHeader{
+    top: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .ourMenu1{
+    margin-top: 20px;
+    font-size: 50px;
+  }
 }

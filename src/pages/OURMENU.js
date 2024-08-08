@@ -4,7 +4,7 @@ import styles from "./OURMENU.module.css";
 const OURMENU = ({ className = "" }) => {
   return (
     <div className={[styles.ourMenu, className].join(" ")}>
-      <img className={styles.ourMenuChild} alt="" src="/frame-188.svg" />
+      {/* <img className={styles.ourMenuChild} alt="" src="/frame-188.svg" />
       <div className={styles.navigation}>
         <img
           className={styles.arrowDownUndefinedGlyph}
@@ -12,7 +12,7 @@ const OURMENU = ({ className = "" }) => {
           alt=""
           src="/arrow-down--undefined--glyph-undefined@2x.png"
         />
-      </div>
+      </div> */}
       <section className={styles.grid}>
         <div className={styles.menuHeader}>
           <a className={styles.ourMenu1}>Our Menu</a>
@@ -63,12 +63,14 @@ const OURMENU = ({ className = "" }) => {
         </div>
         <div className={styles.itemsBackground3}>
           <div className={styles.frameGroup}>
+            <div className={styles.frameChildWrapper}>
             <img
               className={styles.frameChild}
               loading="lazy"
               alt=""
               src="/frame-180@2x.png"
             />
+          </div>
             <div className={styles.chickenWrapper}>
               <div className={styles.chicken}>Chicken</div>
             </div>
