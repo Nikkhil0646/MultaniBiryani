@@ -926,14 +926,7 @@
   color: var(--color-darkorange-100);
 }
 
-.footerAppStoreImageChild {
-  height: 184px;
-  width: 328px;
-  position: relative;
-  background-color: var(--color-dimgray);
-  display: none;
-  max-width: 100%;
-}
+
 
 
 
@@ -949,27 +942,31 @@
 }
 
 
-.footerAppStore,
-.footerAppStoreImage {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
 
-.footerAppStoreImage {
-  flex: 1;
-  background-color: var(--color-dimgray);
-  justify-content: flex-start;
-  padding: var(--padding-smi) var(--padding-mid) var(--padding-xs);
-}
 
 .footerAppStore {
-  align-self: stretch;
-  justify-content: flex-end;
-  padding: 0 var(--padding-base) var(--padding-7xs);
+  display: flex;
+  width: 100%; /* Ensure the container takes full width */
+  overflow: hidden; /* Prevent overflow */
+  padding: 0 20px;
+  align-self: center;
 }
+
+.mapIframe {
+  width: 100%; /* Full width of the parent */
+  height: 200px; /* Set a default height */
+  border: 0; /* Remove border */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Responsive height adjustment */
+@media (min-width: 768px) {
+  .mapIframe {
+      height: 500px; /* Adjust height for larger screens */
+  }
+}
+
 
 .multaniBiryaniMainLogo1 {
   align-self: stretch;
@@ -1741,6 +1738,8 @@
     width: 30px;
     min-height: 30px;
   }
+
+  
 
   .socialIcons1,
   .socialIcons2 {

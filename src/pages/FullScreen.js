@@ -39,7 +39,9 @@ const FullScreen = () => {
       <div className={styles.galleryContentParent}>
         <div className={styles.galleryContent}>
           <GalleryHeader />
-          <ScrollSlideshow />
+          <div className={styles.scrollsection}>
+            <ScrollSlideshow />
+          </div>
           <div className={styles.testimonialContentParent}>
             <div className={styles.testimonialContent}>
               <div className={styles.ppls}>
@@ -139,7 +141,14 @@ const FullScreen = () => {
                 <div className={styles.team1}>TEAM</div>
                 <div className={styles.hoverContent}>
                   <p className={styles.hoverParagraph}>
-                  Step into Multani Biryani and meet our tight-knit team dedicated to crafting your perfect experience. From our expert Barista to our creative minds shaping the ambiance, each member plays a vital role. Friendly service, expertly brewed coffee, and creative culinary delights - it's all about creating memorable moments. Join us at Multani Biryani, where every visit is a blend of passion and perfection.
+                    Step into Multani Biryani and meet our tight-knit team
+                    dedicated to crafting your perfect experience. From our
+                    expert Barista to our creative minds shaping the ambiance,
+                    each member plays a vital role. Friendly service, expertly
+                    brewed coffee, and creative culinary delights - it's all
+                    about creating memorable moments. Join us at Multani
+                    Biryani, where every visit is a blend of passion and
+                    perfection.
                   </p>
                 </div>
               </div>
@@ -178,19 +187,10 @@ const FullScreen = () => {
                 </div>
               </div>
             </div>
-            <a
-              href="https://maps.app.goo.gl/8WuvQMRfrML67dEC8"
-              className={styles.footerAppStore}
-            >
-              <div className={styles.footerAppStoreImage}>
-                <div className={styles.footerAppStoreImageChild} />
-                <img
-                  className={styles.screenshot202407190609291}
-                  alt=""
-                  src="/screenshot-20240719-060929-1@2x.png"
-                />
-              </div>
-            </a>
+            <div className={styles.footerAppStore}>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14970.077240811266!2d85.844798!3d20.278761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7e2035f9875%3A0x4f2648b31655a513!2sMultani%20Biryani!5e0!3m2!1sen!2sin!4v1723239760680!5m2!1sen!2sin" 
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className={styles.mapIframe}></iframe>
+            </div>
             <div className={styles.footerBranding}>
               <div className={styles.footerForm}>
                 <div className={styles.footerFormBackgroundParent}>

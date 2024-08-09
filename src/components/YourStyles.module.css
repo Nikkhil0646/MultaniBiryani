@@ -1,6 +1,9 @@
 .component3Parent {
     position: relative;
     overflow: hidden; /* Hide overflow to prevent scrollbars on the parent */
+    height: 230px;
+    display: flex;
+    align-items: center;
   }
   
   .component3 {
