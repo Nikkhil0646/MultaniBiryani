@@ -1,6 +1,7 @@
 import Content from "../components/Content";
 import GalleryHeader from "../components/GalleryHeader";
 import MainFrame from "../components/MainFrame";
+import Ratings from "../components/Ratings";
 import ScrollSlideshow from "../components/ScrollSlideshow";
 import styles from "./FullScreen.module.css";
 
@@ -44,12 +45,12 @@ const FullScreen = () => {
           </div>
           <div className={styles.testimonialContentParent}>
             <div className={styles.testimonialContent}>
-              <div className={styles.ppls}>
-                <div className={styles.testimonialQuestion}>
-                  <div className={styles.whyPeoplesChoose}>
-                    Why Peoples Choose Us ?
-                  </div>
+              <div className={styles.testimonialQuestion}>
+                <div className={styles.whyPeoplesChoose}>
+                  Why Peoples Choose Us ?
                 </div>
+              </div>
+              <div className={styles.ppls}>
                 <div className={styles.ambiencepart}>
                   <div className={styles.testimonialImage}>
                     <img
@@ -114,10 +115,30 @@ const FullScreen = () => {
                     </div>
                   </div>
                   <div className={styles.reviewStars}>
-                    <div className={styles.androidSmall8} />
-                    <div className={styles.androidSmall8} />
-                    <div className={styles.androidSmall8} />
-                    <div className={styles.androidSmall8} />
+                    <div className={styles.androidSmall8}>
+                      <p className={styles.comments}>
+                        <h3>ABHI</h3>
+                        The food was delicious with the spacious restro.
+                      </p>
+                    </div>
+                    <div className={styles.androidSmall8}>
+                      <p className={styles.comments}>
+                      <h3>NITIN</h3>
+                        The food was delicious with the spacious restro.
+                      </p>
+                    </div>
+                    <div className={styles.androidSmall8}>
+                      <p className={styles.comments}>
+                      <h3>SAMBHU</h3>
+                      The food was delicious with the spacious restro.</p>
+                    </div>
+
+                    <div className={styles.androidSmall8}>
+                      <p className={styles.comments}>
+                      <h3>JAYA</h3>
+                        The food was delicious with the spacious restro.
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className={styles.writeReview}>
@@ -153,45 +174,26 @@ const FullScreen = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.footer}>
-              <div className={styles.footerContent}>
-                <div className={styles.footerAddress}>
-                  <div className={styles.footerAddressItems}>
-                    <div className={styles.footerAddressSeparator}>4.5+</div>
-                  </div>
-                  <div className={styles.footerAddressItems}>
-                    <div className={styles.div}>100+</div>
-                  </div>
-                  <div className={styles.footerAddressItems}>
-                    <div className={styles.div}>2000+</div>
-                  </div>
-                </div>
-                <div className={styles.footerContact}>
-                  <div className={styles.footerRating}>
-                    <div className={styles.footerRatingContent}>
-                      <div className={styles.google}>
-                        <span className={styles.g}>G</span>
-                        <span className={styles.o}>o</span>
-                        <span className={styles.o1}>o</span>
-                        <span className={styles.g}>g</span>
-                        <span className={styles.l}>l</span>
-                        <span className={styles.o}>e</span>
-                      </div>
-                      <div className={styles.ratings}>Ratings</div>
-                    </div>
-                    <div className={styles.footerCustomerCount}>
-                      <div className={styles.reviews}>Reviews</div>
-                      <div className={styles.customers}>Customers</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className={styles.rating}>
+              <Ratings />
             </div>
             <div className={styles.footerAppStore}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14970.077240811266!2d85.844798!3d20.278761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7e2035f9875%3A0x4f2648b31655a513!2sMultani%20Biryani!5e0!3m2!1sen!2sin!4v1723239760680!5m2!1sen!2sin" 
-              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className={styles.mapIframe}></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14970.077240811266!2d85.844798!3d20.278761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7e2035f9875%3A0x4f2648b31655a513!2sMultani%20Biryani!5e0!3m2!1sen!2sin!4v1723239760680!5m2!1sen!2sin"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                className={styles.mapIframe}
+              ></iframe>
             </div>
             <div className={styles.footerBranding}>
+              <div className={styles.footerLogo}>
+                <img
+                  className={styles.multaniBiryaniMainLogo1}
+                  alt=""
+                  src="/multani-biryani-main-logo-11@2x.png"
+                />
+              </div>
               <div className={styles.footerForm}>
                 <div className={styles.footerFormBackgroundParent}>
                   <div className={styles.writeReviewButtonBackground} />
@@ -206,12 +208,13 @@ const FullScreen = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.footerLogo}>
-                  <img
-                    className={styles.multaniBiryaniMainLogo1}
-                    alt=""
-                    src="/multani-biryani-main-logo-11@2x.png"
-                  />
+                <div className={styles.address}>
+                  Shanti Chowk, Jamnagar, Near KIIT Square, Bhubneswar,Orissa,
+                  728192
+                </div>
+
+                <div className={styles.website}>
+                  www.multanibiryani.in
                 </div>
 
                 <div className={styles.footerSocial}>
@@ -234,8 +237,9 @@ const FullScreen = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.address}>
-                512, Plot No:_ 516, KIIT Rd, Patia,Bhubaneswar, Odisha - 751024
+
+              <div className={styles.contact}>
+                Contact us : +91 8232373289, +91 2323898293
               </div>
             </div>
           </div>

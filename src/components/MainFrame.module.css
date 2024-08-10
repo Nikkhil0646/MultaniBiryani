@@ -64,7 +64,12 @@
   background: linear-gradient(101.53deg, #d9d9d9, rgba(255, 255, 255, 0));
   border: 0.5px solid var(--color-white);
   box-sizing: border-box;
+  transition: background-color 0.8 ease;
+  transition-duration: 0.5ms;
 }
+
+
+
 .ourMenu {
   position: relative;
   letter-spacing: 0.01em;
@@ -84,6 +89,7 @@
   white-space: nowrap;
   z-index: 1;
   margin-bottom: 0px;
+
 }
 .instanceChild {
   height: 100%;
@@ -198,6 +204,16 @@
   height: auto;
 }
 
+
+
+.menuContactLink:hover{
+  background-color: linear-gradient(80.53deg, rgba(255, 255, 255, 0), #d9d9d9,);
+}
+
+
+.ourMenu:hover{
+  color: black;
+}
 @media (max-width: 425px) {
   .mainFrame {
     height: 235px; /* Set a specific height for mobile */
@@ -347,29 +363,32 @@
 
 @media (min-width: 1440px) and (max-width: 2560px) {
   .mainFrame {
-    height: 540px; /* Increase height for tablets */
+    height: 767px; /* Increase height for tablets */
   }
 
   .multaniBiryaniMainLogo1{
-    height: 60px;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 120px;
   }
 
   .brandName{
-    padding-top: 50px;
+    padding-top: 120px;
+    margin-left: 50px;
   }
 
   .multani {
-    font-size: 130px;
-    margin-bottom: 50px;
+    font-size: 178px;
+    margin-bottom: 80px;
   }
 
   .biryani {
-    font-size: 90px;
+    font-size: 128px;
   }
   
   .menuNavigation {
-    margin-top: 20px;
-    gap: 40px;
+    margin-top: 50px;
+    gap: 80px;
   }
 
   .experienceAVibrant {
@@ -383,12 +402,24 @@
 
   .navigation {
     min-height: 60px; /* Further increase minimum height for larger screens */
-    font-size: 18px; /* Adjust font size for larger screens */
+    font-size: 16px; /* Adjust font size for larger screens */
     font-weight: 100px;
+    margin-left: 50px;
   }
+
+  .ourMenu{
+    width: 120px;
+    text-align: center;
+  }
+
+  .contactUs{
+    width: 120px;
+    text-align: center;
+  }
+
 }
 
-
+/* 
 @media (min-width: 2560px) {
   .multaniBiryaniMainLogo1{
     width: auto;
@@ -396,7 +427,7 @@
   }
 
   .mainFrame {
-    height: 800px; /* Increase height for tablets */
+    height: 800px; 
   }
   
   .multani {
@@ -417,12 +448,12 @@
   }
 
   .header {
-    padding: var(--padding-30xs) 0; /* Further increase top padding for larger screens */
-    min-height: 100px; /* Further increase minimum height for larger screens */
+    padding: var(--padding-30xs) 0; 
+    min-height: 100px; 
   }
 
   .navigation {
-    min-height: 60px; /* Further increase minimum height for larger screens */
-    font-size: 24px; /* Adjust font size for larger screens */
+    min-height: 60px;
+    font-size: 24px; 
   }
-}
+} */

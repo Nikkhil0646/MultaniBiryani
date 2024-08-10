@@ -1,0 +1,281 @@
+.div {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 118px;
+    align-self: center;
+}
+
+.o {
+    color: var(--color-red);
+}
+
+.o1 {
+    color: var(--color-yellow);
+}
+
+.l {
+    color: var(--color-limegreen);
+}
+
+.e {
+    color: var(--color-red);
+}
+
+.google,
+.ratings1 {
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+.google {
+    flex: 1;
+    position: relative;
+    white-space: nowrap;
+    align-items: center;
+    color: inherit;
+}
+
+.ratings1 {
+    position: absolute;
+    margin: 0 !important;
+    bottom: -10px;
+    left: 1px;
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    color: var(--color-black);
+    display: inline-block;
+    min-width: 46px;
+    z-index: 1;
+}
+
+.content,
+.sources,
+.sourcesWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sourcesWrapper {
+    margin-top: -25px;
+}
+
+.reviewsWrapper{
+    margin-top: -15px;
+}
+
+.customersWrapper {
+    margin-top: -15px;
+}
+
+.sources {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+}
+
+.content,
+.sourcesWrapper {
+    box-sizing: border-box;
+}
+
+.sourcesWrapper {
+    width: 102px;
+    flex-direction: column;
+    padding: var(--padding-4xs) 0 0;
+    font-size: var(--font-size-9xl);
+    color: var(--color-mediumblue);
+    font-family: var(--font-raleway);
+}
+
+.content {
+    width: 312px;
+    background-color: var(--color-lavenderblush);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-46xl) 27px var(--padding-48xl);
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.a,
+.reviews {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.05em;
+    color: inherit;
+    display: inline-block;
+}
+
+.a {
+    font-weight: 500;
+    min-width: 120px;
+}
+
+.reviews {
+    min-width: 117px;
+}
+
+.reviewsWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.reviewsWrapper {
+    flex-direction: column;
+    padding: var(--padding-lgi) 0 0;
+    font-size: var(--font-size-9xl);
+    color: var(--color-black);
+    font-family: var(--font-raleway);
+}
+
+.a1 {
+    font-weight: 500;
+    display: inline-block;
+    min-width: 119px;
+}
+
+.a1,
+.customers {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.05em;
+    color: inherit;
+}
+
+.customers {
+    margin-left: -10px;
+}
+
+.customersWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-mini) 0 0;
+    font-size: var(--font-size-9xl);
+    color: var(--color-black);
+    font-family: var(--font-raleway);
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ratings {
+    width: 1120px;
+    max-width: 100%;
+    justify-content: center;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: 50px;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-darkorange-100);
+    font-family: var(--font-google-sans);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .a,
+    .a1,
+    .div {
+        font-size: var(--font-size-19xl);
+    }
+
+    .customers,
+    .reviews{
+        font-size: 22px;
+        margin-left: -15px;
+    }
+
+
+    .customers{
+        margin-left: -25px;
+    }
+
+
+    .content {
+        width: 280px;
+        height: 100px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .a,
+    .a1,
+    .div {
+        font-size: 24px;
+        padding-left: 40px;
+    }
+
+    .google{
+        font-size: 18px;
+        margin-left: 12px;
+    }
+
+
+    
+
+    .div{
+
+        width: auto;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+
+    .customers,
+    .reviews{
+        font-size: 22px;
+        margin-left: -15px;
+    }
+
+
+    .customers{
+        margin-left: -25px;
+    }
+
+    .ratings {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ratings1{
+        padding-left: 12px;
+    }
+
+    .a{
+        margin-left: 10px;
+    }
+
+    .reviews {
+        font-size: 18px;
+        margin-left: 45px;
+    }
+
+    .customers {
+        font-size: 16px;
+        margin-left: 6px;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        gap: 0px;
+    }
+
+    
+}
