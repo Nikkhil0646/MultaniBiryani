@@ -123,19 +123,20 @@ const FullScreen = () => {
                     </div>
                     <div className={styles.androidSmall8}>
                       <p className={styles.comments}>
-                      <h3>NITIN</h3>
+                        <h3>NITIN</h3>
                         The food was delicious with the spacious restro.
                       </p>
                     </div>
                     <div className={styles.androidSmall8}>
                       <p className={styles.comments}>
-                      <h3>SAMBHU</h3>
-                      The food was delicious with the spacious restro.</p>
+                        <h3>SAMBHU</h3>
+                        The food was delicious with the spacious restro.
+                      </p>
                     </div>
 
                     <div className={styles.androidSmall8}>
                       <p className={styles.comments}>
-                      <h3>JAYA</h3>
+                        <h3>JAYA</h3>
                         The food was delicious with the spacious restro.
                       </p>
                     </div>
@@ -213,22 +214,24 @@ const FullScreen = () => {
                   728192
                 </div>
 
-                <div className={styles.website}>
-                  www.multanibiryani.in
-                </div>
+                <div className={styles.website}>www.multanibiryani.in</div>
 
                 <div className={styles.footerSocial}>
                   <div className={styles.footerSocialIcons}>
-                    <img
-                      className={styles.socialIcons}
-                      alt=""
-                      src="/social-icons.svg"
-                    />
-                    <img
-                      className={styles.socialIcons1}
-                      alt=""
-                      src="/social-icons1.svg"
-                    />
+                    <a href="https://www.facebook.com/profile.php?id=100064020726459">
+                      <img
+                        className={styles.socialIcons}
+                        alt=""
+                        src="/social-icons.svg"
+                      />
+                    </a>
+                    <a href="https://www.instagram.com/multanibiryani?igsh=ZmQwZ2R0a2xtYncz&utm_source=qr">
+                      <img
+                        className={styles.socialIcons1}
+                        alt=""
+                        src="/social-icons1.svg"
+                      />
+                    </a>
                     <img
                       className={styles.socialIcons2}
                       alt=""

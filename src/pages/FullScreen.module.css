@@ -273,6 +273,10 @@
   letter-spacing: 0.05em;
   font-weight: 500;
 }
+ 
+.ambiencepart{
+  padding-top: 20px;
+}
 
 .testimonialQuestion {
   align-self: stretch;
@@ -1623,6 +1627,9 @@
     /* Margin between the parts */
   }
 
+  .ambiencepart{
+    padding-top: 40px;
+  }
 
   .hospitalitypart {
     padding-top: 40px;
@@ -1642,9 +1649,14 @@
     flex-direction: row;
     /* Change to row layout */
     justify-content: space-between;
-    /* Distribute space evenly */
+    /* Distribute space evenly */ 
     flex-wrap: wrap;
     /* Allow wrapping if necessary */
+  }
+
+  .foodCakeUndefinedGlyph{
+    width: 200px;
+    height: 60px;
   }
 
   .testimonialContent {
@@ -1679,6 +1691,11 @@
   .androidSmall8 {
     font-size: 8px;
   }
+
+  .comments{
+    font-size: 8px;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -1691,6 +1708,10 @@
   .androidSmall8 {
     font-size: 16px;
   }
+
+  .multaniBiryaniMainLogo1{
+    height: 23px;
+  }
 }
 
 @media (min-width: 375px) {
@@ -1699,7 +1720,72 @@
   }
 }
 
+@media (min-width: 768px) {
+  .comments {
+    font-size: 18px;
+  }
 
+  .footerForm{
+    margin-left: -10px;
+    width: 200px;
+    gap: 20px;
+  }
+
+
+  .address{
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .multaniBiryaniMainLogo1{
+    height: 40px;
+    margin-left: 0px;
+  }
+
+  .contact{
+    padding-left: 40px;
+    text-align: right;
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .comments {
+    font-size: 18px;
+  }
+
+  .footerForm{
+    width: 200px;
+    margin-left: 170px;
+    gap: 20px;
+  }
+
+
+
+  .address{
+    width: 150px;
+    font-size: 12px;
+  }
+
+  .footerLogo{
+    width: 350px;
+  }
+  .multaniBiryaniMainLogo1{
+    height: 30px;
+    margin-left: 30px;
+  }
+
+  .website{
+    font-size: 16px;
+  }
+  .contact{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: right;
+    font-size: 18px;
+  }
+}
 
 
 /* Responsive adjustments for bigger desktop */
@@ -1894,25 +1980,26 @@
   }
 
   .address {
-    font-size: 18px;
+    font-size: 22px;
     width: 500px;
     display: flex;
     text-align: center;
     line-height: 40px;
   }
 
-  .website{
-    font-size: 16px;
-  }
 
   .footerBranding{
+    height: 268px;
     gap: 120px;
   }
 
   .footerForm {
+    align-self: center;
+    align-self: center;
     gap: 20px;
     margin-left: 180px;
-    margin-right: 100px;
+    margin-right: -200px;
+    padding-right: 100px;
   }
 
   .footerFormBackgroundParent {
@@ -1920,12 +2007,39 @@
   }
 
   .contact{
+    padding-left: 100px;
     text-align: right;
-    font-size: 14px;
+    font-size: 22px;
+  }
+
+  .website{
+    font-size: 22px;
   }
 
   .footerForm{
     margin-bottom: -60px;
   }
+
+  .socialIcons{
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .socialIcons1{
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    padding-bottom: 20px;
+  }
+
+  .socialIcons2{
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    padding-bottom: 20px;
+  }
+
 }
 
