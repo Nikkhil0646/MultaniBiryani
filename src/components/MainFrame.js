@@ -25,20 +25,17 @@ const MainFrame = ({ className = "" }) => {
               <div className={styles.menuLinks}>
                 <div className={styles.menuContact}>
                   <div className={styles.menuContactLinkParent}>
-                    <a
-                      href="/OURMENU"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <div className={styles.menuContactLink} />
+                    <a href="/OURMENU"
+                      style={{ textDecoration: "none", color: "inherit" }}>
+                      
                       <div className={styles.ourMenu}>OUR MENU</div>
                     </a>
                   </div>
-                  <a href="tel:2323898293">
-                    <div className={styles.rectangleParent}>
-                      <div className={styles.instanceChild} />
-                      <div className={styles.contactUs}>CONTACT US</div>
-                    </div>
-                  </a>
+                  <div className={styles.menuContactLinkParent}>
+                    <a href="tel:2323898293">
+                        <div className={styles.contactUs}>CONTACT US</div>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className={styles.experienceAVibrant}>

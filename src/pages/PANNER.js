@@ -30,7 +30,7 @@ const PANNER = () => {
               <div className={styles.biryani}>Panner Kadhai</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -64,7 +64,7 @@ const PANNER = () => {
               <div className={styles.rice}>Panner Corn Masala</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>

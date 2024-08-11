@@ -30,7 +30,7 @@ const BIRYANI = () => {
               <div className={styles.biryani}>Mutton Biryani</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -61,7 +61,7 @@ const BIRYANI = () => {
               <div className={styles.rice}>Chicken Biryani</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -92,7 +92,7 @@ const BIRYANI = () => {
               <div className={styles.mutton}>Chicken Biryani</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>

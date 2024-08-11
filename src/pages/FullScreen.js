@@ -218,7 +218,9 @@ const FullScreen = () => {
                   728192
                 </div>
 
+                <a href="https://www.multanibiryani.in">
                 <div className={styles.website}>www.multanibiryani.in</div>
+                </a>
 
                 <div className={styles.footerSocial}>
                   <div className={styles.footerSocialIcons}>

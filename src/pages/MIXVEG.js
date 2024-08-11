@@ -30,7 +30,7 @@ const MIXVEG = () => {
               <div className={styles.biryani}>Sakzi Keema Masala</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -64,7 +64,7 @@ const MIXVEG = () => {
               <div className={styles.rice}>Yellow Dal Fry</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>

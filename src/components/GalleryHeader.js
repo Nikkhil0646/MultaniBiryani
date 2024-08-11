@@ -29,7 +29,7 @@ const GalleryHeader = ({ className = "" }) => {
       <img
         className={styles.c8a7c3a22a8f1e23c11bfe498146f2Icon}
         alt=""
-        src="/d12724d4874d218fa3a85fda448d1b7d-1@2x.png"
+        src="/d12724d4874d218fa3a85fda448d1b7d-1.png"
       />
     </div>
   );

@@ -30,7 +30,7 @@ const CHICKEN = () => {
               <div className={styles.biryani}>Chicken Kassa</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -61,7 +61,7 @@ const CHICKEN = () => {
               <div className={styles.rice}>Chicken Bharta</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>

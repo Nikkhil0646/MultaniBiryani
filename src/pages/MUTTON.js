@@ -30,7 +30,7 @@ const MUTTON = () => {
               <div className={styles.biryani}>Mutton Stew</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -64,7 +64,7 @@ const MUTTON = () => {
               <div className={styles.rice}>Mutton Keema Kalegi</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -98,7 +98,7 @@ const MUTTON = () => {
               <div className={styles.mutton}>Mutton Rezala</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
@@ -132,7 +132,7 @@ const MUTTON = () => {
               <div className={styles.chicken}>Mutton Rogan Josh</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>

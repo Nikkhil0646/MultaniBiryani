@@ -41,19 +41,19 @@ const ScrollSlideshow = () => {
           className={styles.component3Child}
           loading="lazy"
           alt="Image 1"
-          src="/frame-4@2x.png"
+          src="/frame-4.jpg"
         />
         <img
           className={styles.component3Item}
           loading="lazy"
           alt="Image 2"
-          src="/frame-5@2x.png"
+          src="/frame-5.jpg"
         />
         <img
           className={styles.component3Inner}
           loading="lazy"
           alt="Image 3"
-          src="/frame-6@2x.png"
+          src="/frame-6.jpg"
         />
       </div>
     </section>

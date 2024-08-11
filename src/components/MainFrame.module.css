@@ -61,24 +61,31 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-xs);
-  background: linear-gradient(101.53deg, #d9d9d9, rgba(255, 255, 255, 0));
+  background: #ffffff; /* Set initial background color to white */
+  transition: background-color 0.5s ease, color 0.5s ease;
   border: 0.5px solid var(--color-white);
   box-sizing: border-box;
-  transition: background-color 0.8 ease;
-  transition-duration: 0.5ms;
 }
 
-
-
-.ourMenu {
+.ourMenu,
+.contactUs {
   position: relative;
   letter-spacing: 0.01em;
   display: inline-block;
-  min-width: 36px;
-  z-index: 1;
-  color: #ffffff;
   padding: 2px;
+  min-width: 45px; /* Adjusted the width */
+  z-index: 1;
+  color: black; /* Set initial text color to black */
+  transition: color 0.5s ease, background-color 0.5s ease; /* Smooth transition for color and background */
 }
+
+.ourMenu:hover,
+.contactUs:hover {
+  color: white; /* Change text color to white on hover */
+}
+
+
+
 .menuContactLinkParent {
   display: flex;
   flex-direction: row;
@@ -87,10 +94,17 @@
   padding: var(--padding-9xs) var(--padding-xs);
   position: relative;
   white-space: nowrap;
+  background-color: #d9d9d9;
+  border-radius: 20px;
   z-index: 1;
+  transition: background-color 0.8s ease;
   margin-bottom: 0px;
-
 }
+
+.menuContactLinkParent:hover{
+  background-color: var(--color-darkorange-100);
+}
+
 .instanceChild {
   height: 100%;
   width: 100%;
@@ -101,8 +115,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-xs);
-  background: linear-gradient(114.72deg, #f70, rgba(255, 255, 255, 0));
-  border: 0.5px solid var(--color-darkorange-200);
+  background: #d9d9d9;
   box-sizing: border-box;
 }
 
@@ -111,22 +124,18 @@
   line-height: 126.67%;
   z-index: 1;
   color: rgb(172, 172, 172);
+
 }
-.contactUs {
-  position: relative;
-  letter-spacing: 0.01em;
-  display: inline-block;
-  padding: 2px;
-  min-width: 45px;
-  z-index: 1;
-  color: #ffffff;
-}
+
+
+
 .rectangleParent {
   padding: var(--padding-9xs) var(--padding-4xs);
   position: relative;
   white-space: nowrap;
   z-index: 1;
 }
+
 .menuContact,
 .menuLinks,
 .rectangleParent {
@@ -137,7 +146,11 @@
 }
 .menuContact {
   gap: var(--gap-3xl);
+  transition: color 0.8 ease;
 }
+
+
+
 .menuLinks {
   padding: 0 var(--padding-10xs);
 }
@@ -206,14 +219,9 @@
 
 
 
-.menuContactLink:hover{
-  background-color: linear-gradient(80.53deg, rgba(255, 255, 255, 0), #d9d9d9,);
-}
 
 
-.ourMenu:hover{
-  color: black;
-}
+
 @media (max-width: 425px) {
   .mainFrame {
     height: 235px; /* Set a specific height for mobile */
@@ -281,6 +289,7 @@
     margin-bottom: 15px; /* Increase margin for larger screens */
   }
 }
+
 
 @media (min-width: 768px) and (max-width: 1023px){
   .mainFrame {
@@ -418,42 +427,3 @@
   }
 
 }
-
-/* 
-@media (min-width: 2560px) {
-  .multaniBiryaniMainLogo1{
-    width: auto;
-    height: 100px;
-  }
-
-  .mainFrame {
-    height: 800px; 
-  }
-  
-  .multani {
-    font-size: 200px;
-    margin-bottom: 30px;
-  }
-
-  .biryani {
-    font-size: 72px;
-  }
-  
-  .menuNavigation {
-    gap: 30px;
-  }
-
-  .experienceAVibrant {
-    font-size: 28px;
-  }
-
-  .header {
-    padding: var(--padding-30xs) 0; 
-    min-height: 100px; 
-  }
-
-  .navigation {
-    min-height: 60px;
-    font-size: 24px; 
-  }
-} */

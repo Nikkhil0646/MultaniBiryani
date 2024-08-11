@@ -30,7 +30,7 @@ const MUHSROOM = () => {
               <div className={styles.biryani}>Mushroom Butter Masala</div>
               <div className={styles.priceHeaderRow}>
                 <div className={styles.priceNameRow}>
-                  <a className={styles.prices}>Prices :</a>
+                  <div className={styles.prices}>Prices :</div>
                 </div>
                 <div className={styles.frameParent}>
                   <div className={styles.frameWrapper}>
