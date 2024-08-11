@@ -7,7 +7,7 @@ const MainFrame = ({ className = "" }) => {
       <img
         className={styles.bb7947c94b51760e467704378fe81Icon}
         alt=""
-        src="/6087bb7947c94b51760e467704378fe8-1.svg"
+        src="/6087bb7947c94b51760e467704378fe8-1.png"
       />
       <div className={styles.header}>
         <div className={styles.logoContainer}>
@@ -25,15 +25,20 @@ const MainFrame = ({ className = "" }) => {
               <div className={styles.menuLinks}>
                 <div className={styles.menuContact}>
                   <div className={styles.menuContactLinkParent}>
-                    <a href="/OURMENU" style={{ textDecoration: "none", color: "inherit" }}>
+                    <a
+                      href="/OURMENU"
+                      style={{ textDecoration: "none", color: "inherit" }}
+                    >
                       <div className={styles.menuContactLink} />
                       <div className={styles.ourMenu}>OUR MENU</div>
                     </a>
                   </div>
-                  <div className={styles.rectangleParent}>
-                    <div className={styles.instanceChild} />
-                    <div className={styles.contactUs}>CONTACT US</div>
-                  </div>
+                  <a href="tel:2323898293">
+                    <div className={styles.rectangleParent}>
+                      <div className={styles.instanceChild} />
+                      <div className={styles.contactUs}>CONTACT US</div>
+                    </div>
+                  </a>
                 </div>
               </div>
               <div className={styles.experienceAVibrant}>

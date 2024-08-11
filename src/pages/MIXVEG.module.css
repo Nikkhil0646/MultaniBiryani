@@ -1,461 +1,537 @@
-.mixVegChild {
-    width: 18px;
-    height: 13px;
-    position: relative;
-    display: none;
-  }
-  .arrowDownUndefinedGlyph {
-    width: 21px;
-    height: 21px;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: contain;
-  }
-  .block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-7xs) 0 0;
-  }
-  .mixVeg1 {
-    text-decoration: none;
-    height: 34px;
-    position: relative;
-    letter-spacing: 0.01em;
-    font-weight: 600;
-    color: inherit;
-    display: inline-block;
-    min-width: 96px;
-  }
-  .blockParent {
-    width: 208px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .cc60040982745633c1bf2492066174 {
-    position: absolute;
-    width: calc(100% - 13px);
-    top: 7px;
-    right: 4px;
-    left: 9px;
-    height: 63px;
-    display: none;
-  }
-  .d8320e768e5ebbcf09da6911667e50Icon {
-    position: absolute;
-    width: calc(100% - 16px);
-    top: 12px;
-    right: 8px;
-    left: 8px;
-    max-width: 100%;
-    overflow: hidden;
-    height: 61px;
-    object-fit: cover;
-    z-index: 1;
-  }
-  .mixVegImage {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-burlywood);
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .sabziKeemaMasala {
-    text-decoration: none;
-    position: relative;
-    color: inherit;
-  }
-  .kg,
-  .prices {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    flex-shrink: 0;
-  }
-  .prices {
-    text-decoration: none;
-    color: inherit;
-    min-width: 19px;
-  }
-  .kg {
-    margin-top: -2px;
-    min-width: 23px;
-  }
-  .emptyLabel,
-  .pricesParent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .emptyLabel {
-    height: 8px;
-    flex-direction: row;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    color: var(--color-black);
-    font-family: var(--font-google-sans);
-  }
-  .pricesParent {
-    flex-direction: column;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .kg1 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
-  }
-  .kgWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .kg2 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
-  }
-  .kgContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .mixVegPricing,
-  .priceLabels {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .priceLabels {
-    flex: 1;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .mixVegPricing {
-    width: 118px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-12xs);
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .div {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 32px;
-  }
-  .currencyLabel {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div1 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 35px;
-  }
-  .currencyLabel1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div2 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 35px;
-  }
-  .currencyLabelParent,
-  .priceValues {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .currencyLabelParent {
-    gap: var(--gap-mid);
-  }
-  .priceValues {
-    padding: 0 var(--padding-12xs);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-  }
-  .mixVegDetails,
-  .mixVegName {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .mixVegName {
-    justify-content: flex-start;
-    gap: var(--gap-5xs-5);
-  }
-  .mixVegDetails {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .mixVegContainer,
-  .mixVegContent,
-  .page {
-    display: flex;
-    justify-content: flex-start;
-  }
-  .mixVegContent {
-    flex: 1;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .mixVegContainer,
-  .page {
-    align-self: stretch;
-    align-items: flex-start;
-  }
-  .mixVegContainer {
-    flex-direction: row;
-    padding: 0 0 0 var(--padding-xs);
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
-  }
-  .page {
-    flex-direction: column;
-    gap: var(--gap-xs);
-    text-align: left;
-    font-size: var(--font-size-9xl);
-    color: var(--color-darkorange-100);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .dd776aed76f9c9caaf99a93f9b8e2 {
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 76px;
-    height: 72px;
-  }
-  .ccf1f4585b05875c07a2c008b230f2Icon {
-    position: absolute;
-    width: calc(100% - 3px);
-    top: 12px;
-    right: 1px;
-    left: 2px;
-    max-width: 100%;
-    overflow: hidden;
-    height: 60px;
-    object-fit: cover;
-    z-index: 1;
-  }
-  .dalContent {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-burlywood);
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .kg3,
-  .prices1,
-  .yellowDalFry {
-    position: relative;
-    display: inline-block;
-  }
-  .yellowDalFry {
-    margin: 0;
-    font-size: inherit;
-    font-weight: 400;
-    font-family: inherit;
-    min-width: 103px;
-    white-space: nowrap;
-  }
-  .kg3,
-  .prices1 {
-    font-weight: 500;
-    min-width: 19px;
-    flex-shrink: 0;
-  }
-  .kg3 {
-    margin-top: -2px;
-    min-width: 23px;
-  }
-  .dalEmpty,
-  .pricesGroup {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .dalEmpty {
-    height: 8px;
-    flex-direction: row;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    color: var(--color-black);
-    font-family: var(--font-google-sans);
-  }
-  .pricesGroup {
-    flex-direction: column;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .kg4 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
-  }
-  .kgFrame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .kg5 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
-  }
-  .frameDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .dalPriceLabels,
-  .dalPricing {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .dalPriceLabels {
-    flex: 1;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .dalPricing {
-    width: 118px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-12xs);
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .div3 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 32px;
-  }
-  .dalCurrency {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div4 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 35px;
-  }
-  .dalCurrency1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div5 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 35px;
-  }
-  .dalCurrencyParent,
-  .dalPriceValues {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .dalCurrencyParent {
-    gap: var(--gap-mid);
-  }
-  .dalPriceValues {
-    padding: 0 0 0 var(--padding-12xs);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-  }
-  .dalDetails,
-  .dalName {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .dalName {
-    justify-content: flex-start;
-    gap: var(--gap-5xs-5);
-  }
-  .dalDetails {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .dalContentParent,
-  .mixVeg {
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    box-sizing: border-box;
-  }
-  .dalContentParent {
-    width: 289px;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    flex-direction: row;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-    text-align: left;
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .mixVeg {
-    width: 100%;
-    position: relative;
-    background-color: var(--color-white);
-    flex-direction: column;
-    padding: var(--padding-xs) 35px 372px var(--padding-5xl);
-    gap: var(--gap-xl);
-    line-height: normal;
-    letter-spacing: normal;
-  }
+.contentIcon {
+  width: 22px;
+  height: 20.8px;
+  position: relative;
+  object-fit: contain;
+}
+
+
+
+.ourMenu {
+  width: 100%;
+  height: 3129px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xl) 29px 98px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-bottom: 40px;
+}
+
+
+.ourMenu1 {
+  text-decoration: none;
+  height: 80px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  align-self: center;
+  font-size: 48px;
+}
+
+
+
+.menuTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: -25px;
+  padding-bottom: 45px;
+}
+
+.grid {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Align items to the start */
+  gap: 50px; /* Space between items */
+  width: 100%; /* Full width of the parent */
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gridItemContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-bisque);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-lgi) var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-xs);
+  align-self: stretch; /* Ensure it stretches to fill the grid */
+}
+
+/* Individual grid item style */
+.gridItem {
+  border: 0;
+  background-color: var(--color-white);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 187px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-9xs);
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  
+  align-self: center;
+  position: relative;
+  object-fit: cover;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Media query for screens larger than 767px */
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
+      max-width: calc(33.33% - 20px); /* Maintain the same width constraint */
+  }
+
+  .ourMenu1{
+    font-size: 60px;
+  }
+
+  .contentIcon {
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+
+  .grid{
+    padding-top: 30px;
+    margin: -30px;
+  }
+}
+
+
+.gridItemContainer{
+  max-width: 220px;
+}
+
+.contentIcon{
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 50px;
+  width: auto;
+}
+
+
+@media (min-width: 320px){
+  .contentIcon{
+    height: 40px;
+    margin-top: 13px;
+    margin-left: -5px;
+    margin-right: 25px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
+  }
+
+}
+
+.grid{
+  margin-left: -10px;
+}
+
+.biryani {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.biryaniWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.rice {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.riceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mutton {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+
+.muttonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-55xl) 0 var(--padding-54xl);
+}
+.chicken {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.chickenWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 var(--padding-50xl);
+}
+.panner {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+}
+.pannerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-55xl);
+}
+
+.biryaniWrapper,
+.riceWrapper,
+.muttonWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.mushroom {
+  position: relative;
+  display: inline-block;
+  min-width: 110px;
+}
+.mushroomWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mushroomWrapper {
+  flex-direction: row;
+  padding: 0 55px;
+}
+.mixVeg {
+  position: relative;
+  display: inline-block;
+  min-width: 83px;
+}
+.mixVegWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mixVegWrapper {
+  flex-direction: row;
+  padding: 0 71px 0 66px;
+}
+.bread {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+}
+.breadWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadWrapper {
+  flex-direction: row;
+  padding: 0 75px;
+}
+.dessert {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.dessertWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.dessertWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 65px;
+}
+.drinks {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.drinksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 81px 0 var(--padding-54xl);
+}
+
+.ourMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+  
+
+
+
+.prices {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+  color: var(--color-darkorange-100);
+}
+.priceNameRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.kg,
+.kg1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+}
+.kg1 {
+  min-width: 18px;
+}
+.frameWrapper,
+.kgParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.kgParent{
+  width: 180px;
+}
+.kgParent {
+  flex: 1;
+  justify-content: space-between;
+}
+.frameWrapper {
+  width: 160px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.div,
+.div1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 46px;
+}
+.div1 {
+  min-width: 44px;
+}
+.parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -4px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+.frameParent {
+  align-self: stretch;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  gap: 8pX;
+  font-family: var(--font-google-sans);
+}
+.biryaniTypeRowParent,
+.frameParent,
+.priceHeaderRow,
+.tableHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceHeaderRow {
+  width: 170px;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkorange-300);
+}
+.biryaniTypeRowParent,
+.tableHeader {
+  gap: var(--gap-7xs);
+}
+ 
+.navigation {
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+  margin-left: -30px;
+}
+
+
+
+@media (min-width: 355px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 290px;
+  }
+
+
+}
+
+
+@media (min-width: 425px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 390px;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 1000px;
+  }
+
+
+}
+
+.priceHeaderRow{
+  margin-top: 20px;
+}
+
+
+@media (min-width: 1440px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 1400px;
+  }
+  .biryani,
+  .rice,
+  .mutton,
+  .chicken,
+  .panner,
+  .mushroom,
+  .mixVeg,
+  .bread,
+  .dessert,
+  .drinks {
+    font-size: 26px;
+  }
+
+
+  .priceNameRow {
+    font-size: 24px;
+  }
+
+  .kgParent {
+    font-size: 18px;
+  }
+
+  .parent {
+    font-size: 18px;
+  }
+  
+}

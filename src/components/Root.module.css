@@ -1,0 +1,398 @@
+.amritSaini,
+.bhubaneswar {
+    position: relative;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.amritSaini {
+    text-decoration: none;
+    color: inherit;
+    min-width: 43px;
+}
+
+.bhubaneswar {
+    font-size: var(--font-size-9xs);
+    color: var(--color-gray-400);
+    min-width: 27px;
+}
+
+.details,
+.detailsWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.details {
+    flex-direction: column;
+    gap: var(--gap-11xs);
+}
+
+.detailsWrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+}
+
+.multaniBiryaniNorth {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-7xs);
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-family: inherit;
+    padding-right: var(--padding-12xs);
+}
+
+.layout {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(180deg,
+            rgba(255, 196, 144, 0.8),
+            rgba(199, 199, 199, 0.8));
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-9xs) 29px var(--padding-7xs);
+    gap: var(--gap-8xs);
+}
+
+.kashyapDutta,
+.kiitCollege {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.kashyapDutta {
+    color: inherit;
+    min-width: 58px;
+}
+
+.kiitCollege {
+    font-size: var(--font-size-9xs);
+    color: var(--color-gray-400);
+    min-width: 24px;
+}
+
+.kashyapDuttaParent,
+.layoutInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.kashyapDuttaParent {
+    flex-direction: column;
+    gap: var(--gap-11xs);
+}
+
+.layoutInner {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+}
+
+.theRestaurantsSetting {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-7xs);
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.layout1 {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(180deg,
+            rgba(255, 196, 144, 0.8),
+            rgba(199, 199, 199, 0.8));
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-9xs) var(--padding-smi) var(--padding-7xs);
+    gap: var(--gap-8xs);
+}
+
+.bhubaneswar1,
+.sushreePradhan {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.sushreePradhan {
+    color: inherit;
+    min-width: 67px;
+}
+
+.bhubaneswar1 {
+    font-size: var(--font-size-9xs);
+    color: var(--color-gray-400);
+    min-width: 27px;
+}
+
+.layoutChild,
+.sushreePradhanParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sushreePradhanParent {
+    flex-direction: column;
+    gap: var(--gap-11xs);
+}
+
+.layoutChild {
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+}
+
+.iStumbledUponMultani {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-7xs);
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-family: inherit;
+    padding-right: var(--padding-12xs);
+}
+
+.layout2,
+.root {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.layout2 {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(180deg,
+            rgba(255, 196, 144, 0.8),
+            rgba(199, 199, 199, 0.8));
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-6xs) var(--padding-9xs) var(--padding-8xs) var(--padding-7xs);
+    gap: var(--gap-8xs);
+}
+
+.root {
+    width: 312.4px;
+    flex-direction: row;
+    gap: 10px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-5xs);
+    color: var(--color-black);
+    font-family: var(--font-google-sans);
+}
+
+@media (min-width: 425px) {
+    .root {
+        width: 390px;
+        gap: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    .amritSaini {
+        font-size: 12px;
+    }
+
+    .bhubaneswar {
+        font-size: 10px;
+    }
+
+    .multaniBiryaniNorth {
+        font-size: 10px;
+    }
+
+    .kashyapDutta {
+        font-size: 10px;
+    }
+
+    .kiitCollege {
+        font-size: 12px;
+    }
+
+    .theRestaurantsSetting {
+        font-size: 10px;
+    }
+
+    .sushreePradhan {
+        font-size: 12px;
+    }
+
+    .bhubaneswar1 {
+        font-size: 10px;
+    }
+
+    .iStumbledUponMultani {
+        font-size: 10px;
+    }
+
+    .root {
+        width: 700px;
+        gap: 80px;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .amritSaini {
+        font-size: 22px;
+    }
+
+    .bhubaneswar {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .multaniBiryaniNorth {
+        font-size: 16px;
+        margin-bottom: 55px;
+    }
+
+    .kashyapDutta {
+        font-size: 22px;
+    }
+
+    .kiitCollege {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .theRestaurantsSetting {
+        font-size: 16px;
+    }
+
+    .sushreePradhan {
+        font-size: 22px;
+    }
+
+    .bhubaneswar1 {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .iStumbledUponMultani {
+        font-size: 16px;
+    }
+
+
+    .layout{
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .layout1{
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .layout2{
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .root {
+        width: 920px;
+        gap: 80px;
+    }
+}
+
+
+
+@media (min-width: 1440px) {
+    .amritSaini {
+        font-size: 22px;
+    }
+
+    .bhubaneswar {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .multaniBiryaniNorth {
+        font-size: 16px;
+        margin-bottom: 39px;
+    }
+
+    .kashyapDutta {
+        font-size: 22px;
+    }
+
+    .kiitCollege {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .theRestaurantsSetting {
+        font-size: 16px;
+    }
+
+    .sushreePradhan {
+        font-size: 22px;
+    }
+
+    .bhubaneswar1 {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .iStumbledUponMultani {
+        font-size: 16px;
+    }
+
+
+    .layout{
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .layout1{
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .layout2{
+        border-radius: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .root {
+        width: 1100px;
+        gap: 120px;
+    }
+}

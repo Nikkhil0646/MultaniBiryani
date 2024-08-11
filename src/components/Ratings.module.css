@@ -5,6 +5,7 @@
     display: inline-block;
     min-width: 118px;
     align-self: center;
+    font-size: 50px;
 }
 
 .o {
@@ -113,6 +114,7 @@
 .a {
     font-weight: 500;
     min-width: 120px;
+    font-size: 50px;
 }
 
 .reviews {
@@ -137,6 +139,7 @@
     font-weight: 500;
     display: inline-block;
     min-width: 119px;
+    font-size: 50px;
 }
 
 .a1,

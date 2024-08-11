@@ -2,113 +2,206 @@ import styles from "./SOFTDRINK.module.css";
 
 const SOFTDRINK = () => {
   return (
-    <div className={styles.softDrink}>
-      <img className={styles.softDrinkChild} alt="" src="/frame-188.svg" />
-      <section className={styles.container}>
-        <div className={styles.container1}>
-          <div className={styles.container2}>
-            <img
-              className={styles.arrowDownUndefinedGlyph}
-              loading="lazy"
-              alt=""
-              src="/arrow-down--undefined--glyph-undefined@2x.png"
-            />
-          </div>
-          <a className={styles.softDrinks}>Soft Drinks</a>
+    <div className={styles.ourMenu}>
+      <div className={styles.main}>
+        <a href="/">
+          <img
+            className={styles.contentIcon}
+            loading="lazy"
+            alt=""
+            src="/arrow-down--undefined--glyph-undefined@2x.png"
+          />
+        </a>
+      </div>
+      <main className={styles.navigation}>
+        <div className={styles.menuTitle}>
+          <div className={styles.ourMenu1}>Soft Drinks</div>
         </div>
-        <div className={styles.container3}>
-          <div className={styles.container4}>
-            <div className={styles.container5} />
-            <div className={styles.container6}>
-              <div className={styles.container7}>
-                <a className={styles.roseLassi}>Rose Lassi</a>
-                <div className={styles.container8}>
-                  <div className={styles.container9}>
-                    <a className={styles.prices}>Prices :</a>
-                    <div className={styles.div}>₹120/-</div>
+        <div className={styles.grid}>
+          <div className={styles.gridItemContainer}>
+          <div className={styles.gridItem}>
+              <img
+                className={styles.images}
+                alt=""
+                src="/2e094b19f90148d5c9d33313783f75071.png"
+              />
+            </div>
+            <div className={styles.biryaniWrapper}>
+              <div className={styles.biryani}>Rose Lassi</div>
+              
+                <div className={styles.priceHeaderRow}>
+                <div className={styles.priceNameRow}>
+                  <div className={styles.prices}>Prices :</div>
+                </div>
+                <div className={styles.frameParent}>
+                  {/* <div className={styles.frameWrapper}>
+                    <div className={styles.kgParent}>
+                      <div className={styles.kg}>1/2 kg</div>
+                      <div className={styles.kg1}>1 kg</div>
+                    </div>
+                  </div> */}
+                  <div className={styles.parent}>
+                    <div className={styles.wrapper}>
+                      <div className={styles.div1}>₹180/-</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className={styles.container10}>
-        <div className={styles.container11} />
-        <div className={styles.container12}>
-          <div className={styles.container13}>
-            <h1 className={styles.kesharLassi}>Keshar Lassi</h1>
-            <div className={styles.container14}>
-              <div className={styles.container15}>
-                <div className={styles.prices1}>Prices :</div>
-                <div className={styles.div1}>₹140/-</div>
-              </div>
+          <div className={styles.gridItemContainer}>
+          <div className={styles.gridItem}>
+              <img
+                className={styles.images}
+                alt=""
+                src="/6a2d43be149a270af28c058dd21f76321.png"
+              />
             </div>
-          </div>
-        </div>
-      </section>
-      <section className={styles.container16}>
-        <div className={styles.containerChild} />
-        <div className={styles.containerInner}>
-          <div className={styles.multaniLassiParent}>
-            <h1 className={styles.multaniLassi}>Multani Lassi</h1>
-            <div className={styles.frameWrapper}>
-              <div className={styles.pricesParent}>
-                <div className={styles.prices2}>Prices :</div>
-                <div className={styles.div2}>₹100/-</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className={styles.container17}>
-        <div className={styles.containerParent}>
-          <div className={styles.container18} />
-          <div className={styles.container19}>
-            <div className={styles.container20}>
-              <h1 className={styles.coldDrink}>Cold Drink</h1>
-              <div className={styles.container21}>
-                <div className={styles.container22}>
-                  <div className={styles.prices3}>Prices :</div>
-                  <h1 className={styles.mrp}>MRP</h1>
+            <div className={styles.riceWrapper}>
+              <div className={styles.rice}>Keshar Lassi</div>
+              <div className={styles.priceHeaderRow}>
+                <div className={styles.priceNameRow}>
+                  <div className={styles.prices}>Prices :</div>
+                </div>
+                <div className={styles.frameParent}>
+                  {/* <div className={styles.frameWrapper}>
+                    <div className={styles.kgParent}>
+                      <div className={styles.kg}>1/2 kg</div>
+                      <div className={styles.kg1}>1 kg</div>
+                    </div>
+                  </div> */}
+                  <div className={styles.parent}>
+                    <div className={styles.wrapper}>
+                      <div className={styles.div1}>₹180/-</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className={styles.container23}>
-        <div className={styles.frameParent}>
-          <div className={styles.frameChild} />
-          <div className={styles.frameContainer}>
-            <div className={styles.waterParent}>
-              <h1 className={styles.water}>Water</h1>
-              <div className={styles.frameDiv}>
-                <div className={styles.pricesGroup}>
-                  <div className={styles.prices4}>Prices :</div>
-                  <div className={styles.div3}>₹20/-</div>
+          <div className={styles.gridItemContainer}>
+          <div className={styles.gridItem}>
+              <img
+                className={styles.images}
+                alt=""
+                src="/8a89e60a81575ae318eb95a10cc1ee891.png"
+              />
+            </div>
+            <div className={styles.muttonWrapper}>
+              <div className={styles.mutton}>Multani Lassi</div>
+              <div className={styles.priceHeaderRow}>
+                <div className={styles.priceNameRow}>
+                  <div className={styles.prices}>Prices :</div>
+                </div>
+                <div className={styles.frameParent}>
+                  {/* <div className={styles.frameWrapper}>
+                    <div className={styles.kgParent}>
+                      <div className={styles.kg}>1/2 kg</div>
+                      <div className={styles.kg1}>1 kg</div>
+                    </div>
+                  </div> */}
+                  <div className={styles.parent}>
+                    <div className={styles.wrapper}>
+                      <div className={styles.div1}>₹180/-</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className={styles.container24}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameItem} />
-          <div className={styles.frameWrapper1}>
-            <div className={styles.faludaParent}>
-              <h1 className={styles.faluda}>Faluda</h1>
-              <div className={styles.frameWrapper2}>
-                <div className={styles.pricesContainer}>
-                  <div className={styles.prices5}>Prices :</div>
-                  <div className={styles.div4}>₹140/-</div>
+          <div className={styles.gridItemContainer}>
+          <div className={styles.gridItem}>
+              <img
+                className={styles.images}
+                alt=""
+                src="/21033241cec90baa0f32f80373d70a611.png"
+              />
+            </div>
+            <div className={styles.chickenWrapper}>
+              <div className={styles.chicken}>Cold Drink</div>
+              <div className={styles.priceHeaderRow}>
+                <div className={styles.priceNameRow}>
+                  <div className={styles.prices}>Prices :</div>
+                </div>
+                <div className={styles.frameParent}>
+                  {/* <div className={styles.frameWrapper}>
+                    <div className={styles.kgParent}>
+                      <div className={styles.kg}>1/2 kg</div>
+                      <div className={styles.kg1}>1 kg</div>
+                    </div>
+                  </div> */}
+                  <div className={styles.parent}>
+                    <div className={styles.wrapper}>
+                      <div className={styles.div1}>₹180/-</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className={styles.gridItemContainer}>
+          <div className={styles.gridItem}>
+              <img
+                className={styles.images}
+                alt=""
+                src="/fa74245b6bfc329bb60c26b4791876991.png"
+              />
+            </div>
+            <div className={styles.pannerWrapper}>
+              <div className={styles.panner}>Water</div>
+              <div className={styles.priceHeaderRow}>
+                <div className={styles.priceNameRow}>
+                  <div className={styles.prices}>Prices :</div>
+                </div>
+                <div className={styles.frameParent}>
+                  {/* <div className={styles.frameWrapper}>
+                    <div className={styles.kgParent}>
+                      <div className={styles.kg}>1/2 kg</div>
+                      <div className={styles.kg1}>1 kg</div>
+                    </div>
+                  </div> */}
+                  <div className={styles.parent}>
+                    <div className={styles.wrapper}>
+                      <div className={styles.div1}>₹180/-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.gridItemContainer}>
+          <div className={styles.gridItem}>
+              <img
+                className={styles.images}
+                alt=""
+                src="/4d284f7f64261d6d17ef04e8b8a7f4121.png"
+              />
+            </div>
+            <div className={styles.mushroomWrapper}>
+              <div className={styles.mushroom}>Faluda</div>
+              <div className={styles.priceHeaderRow}>
+                <div className={styles.priceNameRow}>
+                  <div className={styles.prices}>Prices :</div>
+                </div>
+                <div className={styles.frameParent}>
+                  {/* <div className={styles.frameWrapper}>
+                    <div className={styles.kgParent}>
+                      <div className={styles.kg}>1/2 kg</div>
+                      <div className={styles.kg1}>1 kg</div>
+                    </div>
+                  </div> */}
+                  <div className={styles.parent}>
+                    <div className={styles.wrapper}>
+                      <div className={styles.div1}>₹180/-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
-      </section>
+      </main>
     </div>
   );
 };

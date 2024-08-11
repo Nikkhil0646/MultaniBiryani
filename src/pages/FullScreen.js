@@ -2,6 +2,7 @@ import Content from "../components/Content";
 import GalleryHeader from "../components/GalleryHeader";
 import MainFrame from "../components/MainFrame";
 import Ratings from "../components/Ratings";
+import Root from "../components/Root";
 import ScrollSlideshow from "../components/ScrollSlideshow";
 import styles from "./FullScreen.module.css";
 
@@ -106,15 +107,17 @@ const FullScreen = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.reviewContentWrapper}>
-              <div className={styles.reviewContent}>
-                <div className={styles.reviewTitle}>
-                  <div className={styles.reviewHeading}>
-                    <div className={styles.whyPeoplesChoose}>
-                      What Our Visitors Says
-                    </div>
-                  </div>
-                  <div className={styles.reviewStars}>
+
+            <div className={styles.reviewContent}>
+              <div className={styles.reviewHeading}>
+                <div className={styles.whyPeoplesChoose}>
+                  What Our Visitors Says
+                </div>
+                <div className={styles.review}>
+                  <Root />
+                </div>
+              </div>
+              {/* <div className={styles.reviewStars}>
                     <div className={styles.androidSmall8}>
                       <p className={styles.comments}>
                         <h3>ABHI</h3>
@@ -140,16 +143,15 @@ const FullScreen = () => {
                         The food was delicious with the spacious restro.
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div className={styles.writeReview}>
+                  </div>*/}
+            </div>
+            {/* <div className={styles.writeReview}>
                   <div className={styles.writeReviewButtonBackgroundParent}>
                     <div className={styles.writeReviewButtonBackground} />
                     <div className={styles.writeAReview}>WRITE A REVIEW</div>
                   </div>
-                </div>
-              </div>
-            </div>
+                </div> */}
+
             <div className={styles.teamWrapper}>
               <div className={styles.team}>
                 <img
@@ -196,19 +198,21 @@ const FullScreen = () => {
                 />
               </div>
               <div className={styles.footerForm}>
-                <div className={styles.footerFormBackgroundParent}>
-                  <div className={styles.writeReviewButtonBackground} />
-                  <img
-                    className={styles.userCicrleIcon}
-                    alt=""
-                    src="/user-cicrle.svg"
-                  />
-                  <div className={styles.footerFormLabel}>
-                    <div className={styles.writeYourQueries}>
-                      WRITE YOUR QUERIES
+                <a href="mailto:dhabamungeri@gmail.com">
+                  <div className={styles.footerFormBackgroundParent}>
+                    <div className={styles.writeReviewButtonBackground} />
+                    <img
+                      className={styles.userCicrleIcon}
+                      alt=""
+                      src="/User_cicrle@2x.png"
+                    />
+                    <div className={styles.footerFormLabel}>
+                      <div className={styles.writeYourQueries}>
+                        ASK US SOMETHING
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
                 <div className={styles.address}>
                   Shanti Chowk, Jamnagar, Near KIIT Square, Bhubneswar,Orissa,
                   728192
@@ -237,6 +241,20 @@ const FullScreen = () => {
                       alt=""
                       src="/social-icons2.svg"
                     />
+                    <a href="https://www.instagram.com/multanibiryani?igsh=ZmQwZ2R0a2xtYncz&utm_source=qr">
+                      <img
+                        className={styles.socialIcons1}
+                        alt=""
+                        src="/social-icons3.svg"
+                      />
+                    </a>
+                    <a href="https://www.instagram.com/multanibiryani?igsh=ZmQwZ2R0a2xtYncz&utm_source=qr">
+                      <img
+                        className={styles.socialIcons1}
+                        alt=""
+                        src="/social-icons4.svg"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>

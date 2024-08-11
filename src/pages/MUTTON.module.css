@@ -1,783 +1,528 @@
-.muttonChild {
-    width: 18px;
-    height: 13px;
-    position: relative;
-    display: none;
-  }
-  .arrowDownUndefinedGlyph {
-    width: 21px;
-    height: 21px;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: contain;
-  }
-  .arrowDownUndefinedGlyphWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-7xs) 0 0;
-  }
-  .mutton1 {
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 0.01em;
-    font-weight: 600;
-    color: inherit;
-    display: inline-block;
-    min-width: 92px;
-  }
-  .frameParent,
-  .muttonInner {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .frameParent {
-    width: 201px;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .muttonInner {
-    align-self: stretch;
-    justify-content: flex-start;
-  }
-  .fd5d9d23c721867b8c05562261dcb2Icon {
-    position: absolute;
-    width: calc(100% - 10px);
-    top: 3px;
-    right: 5px;
-    left: 5px;
-    max-width: 100%;
-    overflow: hidden;
-    height: 68px;
-    object-fit: cover;
-  }
-  .dishNamesColumn {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-burlywood);
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .kg,
-  .muttonStew,
-  .prices {
-    position: relative;
-    display: inline-block;
-  }
-  .muttonStew {
-    text-decoration: none;
-    color: inherit;
-    min-width: 97px;
-  }
-  .kg,
-  .prices {
-    font-weight: 500;
-    flex-shrink: 0;
-  }
-  .prices {
-    text-decoration: none;
-    color: inherit;
-    min-width: 19px;
-  }
-  .kg {
-    margin-top: -2px;
-    min-width: 23px;
-  }
-  .kgWrapper,
-  .pricesParent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .kgWrapper {
-    height: 8px;
-    flex-direction: row;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    color: var(--color-black);
-    font-family: var(--font-google-sans);
-  }
-  .pricesParent {
-    flex-direction: column;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .kg1 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
-  }
-  .kgContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .kg2 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
-  }
-  .kgFrame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .priceColumn,
-  .priceValuesColumn {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .priceValuesColumn {
-    flex: 1;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .priceColumn {
-    width: 118px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-12xs);
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .div {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 34px;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div1 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 33px;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div2 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 38px;
-  }
-  .priceRowColumn,
-  .priceValues {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .priceValues {
-    gap: var(--gap-mid);
-  }
-  .priceRowColumn {
-    padding: 0 0 0 var(--padding-12xs);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-  }
-  .dishNameColumn,
-  .dishes {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .dishes {
-    justify-content: flex-start;
-    gap: var(--gap-5xs-5);
-  }
-  .dishNameColumn {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .dishColumns {
-    align-self: stretch;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .eb4593a9c14f857e0b93673a7f2e2eIcon {
-    position: absolute;
-    width: calc(100% - 10px);
-    top: 7px;
-    right: 5px;
-    left: 5px;
-    max-width: 100%;
-    overflow: hidden;
-    height: 67px;
-    object-fit: cover;
-  }
-  .eb4593a9c14f857e0b93673a7f2e2eWrapper {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-burlywood);
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .muttonKeemaKalegi {
-    margin: 0;
-    position: relative;
-    font-size: inherit;
-    font-weight: 400;
-    font-family: inherit;
-    white-space: nowrap;
-  }
-  .kg3,
-  .prices1 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 19px;
-    flex-shrink: 0;
-  }
-  .kg3 {
-    margin-top: -2px;
-    min-width: 23px;
-  }
-  .frameDiv,
-  .pricesGroup {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frameDiv {
-    height: 8px;
-    flex-direction: row;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    color: var(--color-black);
-    font-family: var(--font-google-sans);
-  }
-  .pricesGroup {
-    flex-direction: column;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .kg4 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
-  }
-  .kgWrapper1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .kg5 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
-  }
-  .kgWrapper2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .frameGroup,
-  .frameWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .frameGroup {
-    flex: 1;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .frameWrapper {
-    width: 118px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-12xs);
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .div3 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 34px;
-  }
-  .frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div4 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 33px;
-  }
-  .wrapper1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div5 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 38px;
-  }
-  .frameContainer,
-  .frameParent1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frameParent1 {
-    gap: var(--gap-mid);
-  }
-  .frameContainer {
-    padding: 0 var(--padding-12xs);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-  }
-  .dishColumnsInner,
-  .muttonKeemaKalegiParent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .muttonKeemaKalegiParent {
-    justify-content: flex-start;
-    gap: var(--gap-5xs-5);
-  }
-  .dishColumnsInner {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .dishColumns1 {
-    align-self: stretch;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .dishColumnsChild {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-  }
-  .kg6,
-  .muttonRezala,
-  .prices2 {
-    position: relative;
-    display: inline-block;
-  }
-  .muttonRezala {
-    margin: 0;
-    font-size: inherit;
-    font-weight: 400;
-    font-family: inherit;
-    min-width: 107px;
-  }
-  .kg6,
-  .prices2 {
-    font-weight: 500;
-    min-width: 19px;
-  }
-  .kg6 {
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-    color: var(--color-black);
-    min-width: 23px;
-    z-index: 1;
-    margin-top: -2px;
-  }
-  .pricesContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .kg7 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
-  }
-  .kgWrapper3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .kg8 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
-  }
-  .kgWrapper4 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .frameParent2,
-  .frameWrapper1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .frameParent2 {
-    flex: 1;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .frameWrapper1 {
-    width: 118px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-12xs);
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .div6 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 34px;
-  }
-  .wrapper2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div7 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 33px;
-  }
-  .wrapper3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div8 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 38px;
-  }
-  .frameParent3,
-  .frameWrapper2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frameParent3 {
-    gap: var(--gap-mid);
-  }
-  .frameWrapper2 {
-    padding: 0 0 0 var(--padding-12xs);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-  }
-  .dishColumnsInner1,
-  .muttonRezalaParent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .muttonRezalaParent {
-    justify-content: flex-start;
-    gap: var(--gap-5xs-5);
-  }
-  .dishColumnsInner1 {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .dishColumns2,
-  .dishColumnsParent {
-    display: flex;
-    justify-content: flex-start;
-  }
-  .dishColumns2 {
-    align-self: stretch;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .dishColumnsParent {
-    width: 289px;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 0 var(--padding-5xs);
-    box-sizing: border-box;
-    gap: var(--gap-xl);
-    text-align: left;
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .frameChild {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-  }
-  .muttonRoganJosh {
-    margin: 0;
-    position: relative;
-    font-size: inherit;
-    font-weight: 400;
-    font-family: inherit;
-  }
-  .kg9,
-  .prices3 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 19px;
-    flex-shrink: 0;
-  }
-  .kg9 {
-    margin-top: -2px;
-    min-width: 23px;
-  }
-  .priceWeights,
-  .weightValue {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .weightValue {
-    height: 8px;
-    flex-direction: row;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    color: var(--color-black);
-    font-family: var(--font-google-sans);
-  }
-  .priceWeights {
-    flex-direction: column;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .kg10 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
-  }
-  .priceWeights1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .kg11 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
-  }
-  .priceWeights2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .priceDetails,
-  .priceDetailsWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .priceDetails {
-    flex: 1;
-    justify-content: space-between;
-    gap: var(--gap-xl);
-  }
-  .priceDetailsWrapper {
-    width: 118px;
-    justify-content: flex-start;
-    padding: 0 var(--padding-12xs);
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .div9 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 34px;
-  }
-  .currencyValues {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div10 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 33px;
-  }
-  .currencyValues1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div11 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 38px;
-  }
-  .finalPrice,
-  .finalPriceWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .finalPrice {
-    gap: var(--gap-mid);
-  }
-  .finalPriceWrapper {
-    padding: 0 var(--padding-9xs) 0 var(--padding-12xs);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-  }
-  .frameWrapper3,
-  .muttonRoganJoshParent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .muttonRoganJoshParent {
-    justify-content: flex-start;
-    gap: var(--gap-5xs-5);
-  }
-  .frameWrapper3 {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .frameParent4 {
-    flex: 1;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .frameSection,
-  .mutton {
-    display: flex;
-    text-align: left;
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .frameSection {
-    align-self: stretch;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0 var(--padding-12xs) 0 var(--padding-2xs);
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
-  }
-  .mutton {
-    width: 100%;
-    position: relative;
-    background-color: var(--color-white);
-    overflow: hidden;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: var(--padding-xs) 35px 142px var(--padding-5xl);
-    box-sizing: border-box;
-    gap: var(--gap-xs);
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: var(--font-size-9xl);
-    color: var(--color-darkorange-100);
-  }
+.contentIcon {
+  width: 22px;
+  height: 20.8px;
+  position: relative;
+  object-fit: contain;
+}
+
+
+
+.ourMenu {
+  width: 100%;
+  height: 3129px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xl) 29px 98px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-bottom: 40px;
+}
+
+
+.ourMenu1 {
+  text-decoration: none;
+  height: 80px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  align-self: center;
+  font-size: 48px;
+}
+
+
+
+.menuTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: -25px;
+  padding-bottom: 45px;
+}
+
+.grid {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Align items to the start */
+  gap: 50px; /* Space between items */
+  width: 100%; /* Full width of the parent */
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gridItemContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-bisque);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-lgi) var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-xs);
+  align-self: stretch; /* Ensure it stretches to fill the grid */
+}
+
+/* Individual grid item style */
+.gridItem {
+  border: 0;
+  background-color: var(--color-white);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 187px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-9xs);
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  
+  align-self: center;
+  position: relative;
+  object-fit: cover;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Media query for screens larger than 767px */
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
+      max-width: calc(33.33% - 20px); /* Maintain the same width constraint */
+  }
+
+  .ourMenu1{
+    font-size: 60px;
+  }
+
+  .contentIcon {
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+
+  .grid{
+    padding-top: 30px;
+    margin: -30px;
+  }
+}
+
+
+.gridItemContainer{
+  max-width: 220px;
+}
+
+.contentIcon{
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 50px;
+  width: auto;
+}
+
+
+@media (min-width: 320px){
+  .contentIcon{
+    height: 40px;
+    margin-top: 13px;
+    margin-left: -5px;
+    margin-right: 25px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
+  }
+
+}
+
+.grid{
+  margin-left: -10px;
+}
+
+.biryani {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.biryaniWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.rice {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.riceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mutton {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  min-width: 200px;
+}
+
+.muttonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-55xl) 0 var(--padding-54xl);
+}
+.chicken {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  min-width: 150px;
+}
+.chickenWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 var(--padding-50xl);
+}
+.panner {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+}
+
+
+
+.mushroom {
+  position: relative;
+  display: inline-block;
+  min-width: 110px;
+}
+.mushroomWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mixVeg {
+  position: relative;
+  display: inline-block;
+  min-width: 83px;
+}
+.mixVegWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mixVegWrapper {
+  flex-direction: row;
+  padding: 0 71px 0 66px;
+}
+.bread {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+}
+.breadWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dessert {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.dessertWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 65px;
+}
+.drinks {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.drinksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 81px 0 var(--padding-54xl);
+}
+
+.ourMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+  
+
+
+
+.prices {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+  color: var(--color-darkorange-100);
+}
+.priceNameRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.kg,
+.kg1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+}
+.kg1 {
+  min-width: 18px;
+}
+.frameWrapper,
+.kgParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.kgParent{
+  width: 180px;
+}
+.kgParent {
+  flex: 1;
+  justify-content: space-between;
+}
+.frameWrapper {
+  width: 160px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.div,
+.div1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 46px;
+}
+.div1 {
+  min-width: 44px;
+}
+.parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -4px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+.frameParent {
+  align-self: stretch;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  gap: 8pX;
+  font-family: var(--font-google-sans);
+}
+.biryaniTypeRowParent,
+.frameParent,
+.priceHeaderRow,
+.tableHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceHeaderRow {
+  width: 170px;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkorange-300);
+}
+.biryaniTypeRowParent,
+.tableHeader {
+  gap: var(--gap-7xs);
+}
+ 
+.navigation {
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+  margin-left: -30px;
+}
+
+
+
+.biryaniWrapper,
+.riceWrapper,
+.muttonWrapper,
+.chickenWrapper,
+.pannerWrapper,
+.mushroomWrapper,
+.mixVegWrapper,
+.breadWrapper,
+.dessertWrapper,
+.drinksWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 355px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 290px;
+  }
+
+
+}
+
+
+@media (min-width: 425px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 390px;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 1000px;
+  }
+
+
+}
+
+.priceHeaderRow{
+  margin-top: 20px;
+}
+
+@media (min-width: 1440px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .grid{
+    gap: 150px;
+    width: 1400px;
+  }
+  
+  
+  .biryani,
+  .rice,
+  .mutton,
+  .chicken,
+  .panner,
+  .mushroom,
+  .mixVeg,
+  .bread,
+  .dessert,
+  .drinks {
+    font-size: 26px;
+  }
+
+
+  .priceNameRow {
+    font-size: 24px;
+  }
+
+  .kgParent {
+    font-size: 18px;
+  }
+
+  .parent {
+    font-size: 18px;
+  }
+}

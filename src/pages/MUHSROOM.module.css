@@ -1,244 +1,536 @@
-.muhsroomChild {
-    width: 18px;
-    height: 13px;
-    position: relative;
-    display: none;
+.contentIcon {
+  width: 22px;
+  height: 20.8px;
+  position: relative;
+  object-fit: contain;
+}
+
+
+
+.ourMenu {
+  width: 100%;
+  height: 3129px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xl) 29px 98px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-bottom: 40px;
+}
+
+
+.ourMenu1 {
+  text-decoration: none;
+  height: 80px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  align-self: center;
+  font-size: 48px;
+}
+
+
+
+.menuTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: -25px;
+  padding-bottom: 45px;
+}
+
+.grid {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Align items to the start */
+  gap: 50px; /* Space between items */
+  width: 100%; /* Full width of the parent */
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gridItemContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-bisque);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-lgi) var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-xs);
+  align-self: stretch; /* Ensure it stretches to fill the grid */
+}
+
+/* Individual grid item style */
+.gridItem {
+  border: 0;
+  background-color: var(--color-white);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 187px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-9xs);
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  
+  align-self: center;
+  position: relative;
+  object-fit: cover;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Media query for screens larger than 767px */
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
+      max-width: calc(33.33% - 20px); /* Maintain the same width constraint */
   }
-  .arrowDownUndefinedGlyph {
-    width: 21px;
-    height: 21px;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: contain;
+
+  .ourMenu1{
+    font-size: 60px;
   }
-  .arrowDownUndefinedGlyphWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-7xs) 0 0;
+
+  .contentIcon {
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
   }
-  .mushroom {
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 0.01em;
-    font-weight: 600;
-    color: inherit;
+
+  .grid{
+    padding-top: 30px;
+    margin: -30px;
   }
-  .frameParent {
-    width: 223px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--gap-xl);
+}
+
+
+.gridItemContainer{
+  max-width: 220px;
+}
+
+.contentIcon{
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 50px;
+  width: auto;
+}
+
+
+@media (min-width: 320px){
+  .contentIcon{
+    height: 40px;
+    margin-top: 13px;
+    margin-left: -5px;
+    margin-right: 25px;
   }
-  .db17641d31c172d2b2739daf968cafIcon {
-    position: absolute;
-    width: calc(100% - 9px);
-    top: 6px;
-    right: 5px;
-    left: 4px;
-    max-width: 100%;
-    overflow: hidden;
-    height: 66px;
-    object-fit: cover;
+}
+
+
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
   }
-  .db17641d31c172d2b2739daf968cafWrapper {
-    height: 77px;
-    width: 76px;
-    position: relative;
-    border-radius: 5px;
-    background-color: #ffc490;
-    overflow: hidden;
-    flex-shrink: 0;
+
+}
+
+.grid{
+  margin-left: -10px;
+}
+
+.biryani {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.biryaniWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.rice {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.riceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mutton {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+
+.muttonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-55xl) 0 var(--padding-54xl);
+}
+.chicken {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.chickenWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 var(--padding-50xl);
+}
+.panner {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+}
+.pannerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-55xl);
+}
+
+.biryaniWrapper,
+.riceWrapper,
+.muttonWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.mushroom {
+  position: relative;
+  display: inline-block;
+  min-width: 110px;
+}
+.mushroomWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mushroomWrapper {
+  flex-direction: row;
+  padding: 0 55px;
+}
+.mixVeg {
+  position: relative;
+  display: inline-block;
+  min-width: 83px;
+}
+.mixVegWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mixVegWrapper {
+  flex-direction: row;
+  padding: 0 71px 0 66px;
+}
+.bread {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+}
+.breadWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadWrapper {
+  flex-direction: row;
+  padding: 0 75px;
+}
+.dessert {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.dessertWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.dessertWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 65px;
+}
+.drinks {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.drinksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 81px 0 var(--padding-54xl);
+}
+
+.ourMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+  
+
+
+
+.prices {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+  color: var(--color-darkorange-100);
+}
+.priceNameRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.kg,
+.kg1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+}
+.kg1 {
+  min-width: 18px;
+}
+.frameWrapper,
+.kgParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.kgParent{
+  width: 180px;
+}
+.kgParent {
+  flex: 1;
+  justify-content: space-between;
+}
+.frameWrapper {
+  width: 160px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.div,
+.div1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 46px;
+}
+.div1 {
+  min-width: 44px;
+}
+.parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -4px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+.frameParent {
+  align-self: stretch;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  gap: 8pX;
+  font-family: var(--font-google-sans);
+}
+.biryaniTypeRowParent,
+.frameParent,
+.priceHeaderRow,
+.tableHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceHeaderRow {
+  width: 170px;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkorange-300);
+}
+.biryaniTypeRowParent,
+.tableHeader {
+  gap: var(--gap-7xs);
+}
+ 
+.navigation {
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+  margin-left: -30px;
+}
+
+
+
+@media (min-width: 355px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .mushroomButterMasala {
-    text-decoration: none;
-    position: relative;
-    color: inherit;
+
+  .grid{
+    gap: 150px;
+    width: 290px;
   }
-  .kg,
-  .prices {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    flex-shrink: 0;
+
+
+}
+
+
+@media (min-width: 425px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .prices {
-    text-decoration: none;
-    color: inherit;
-    min-width: 19px;
+
+  .grid{
+    gap: 150px;
+    width: 390px;
   }
-  .kg {
-    margin-top: -2px;
-    min-width: 23px;
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .kgPlaceholder,
-  .weightUnit {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+
+  .grid{
+    gap: 150px;
+    width: 1000px;
   }
-  .kgPlaceholder {
-    height: 8px;
-    flex-direction: row;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: var(--font-size-5xs);
-    color: var(--color-black);
-    font-family: var(--font-google-sans);
+
+
+}
+
+.priceHeaderRow{
+  margin-top: 20px;
+}
+
+@media (min-width: 1440px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .weightUnit {
-    flex-direction: column;
-    font-size: var(--font-size-7xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
+
+  .grid{
+    gap: 150px;
+    width: 1400px;
   }
-  .kg1 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 23px;
+  .biryani,
+  .rice,
+  .mutton,
+  .chicken,
+  .panner,
+  .mushroom,
+  .mixVeg,
+  .bread,
+  .dessert,
+  .drinks {
+    font-size: 26px;
   }
-  .weightUnit1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xs) 0 0;
+
+
+  .priceNameRow {
+    font-size: 24px;
   }
-  .kg2 {
-    position: relative;
-    font-weight: 500;
-    display: inline-block;
-    min-width: 15px;
+
+  .kgParent {
+    font-size: 18px;
   }
-  .tableHeader,
-  .weightUnit2 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+
+  .parent {
+    font-size: 18px;
   }
-  .weightUnit2 {
-    flex-direction: column;
-    padding: var(--padding-8xs) 0 0;
-  }
-  .tableHeader {
-    flex-direction: row;
-    gap: 27.5px;
-  }
-  .div {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 34px;
-  }
-  .rupeeSymbol {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div1 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 35px;
-  }
-  .rupeeSymbol1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-12xs) 0 0;
-  }
-  .div2 {
-    position: relative;
-    font-weight: 600;
-    display: inline-block;
-    min-width: 35px;
-  }
-  .priceValue {
-    flex-direction: row;
-    gap: var(--gap-base);
-    font-size: var(--font-size-xs);
-    color: var(--color-darkorange-300);
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .priceTable,
-  .priceTableWrapper,
-  .priceValue {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .priceTable {
-    flex-direction: column;
-    gap: 6px;
-  }
-  .priceTableWrapper {
-    flex-direction: row;
-    padding: 0 var(--padding-12xs);
-    font-size: var(--font-size-5xs);
-    font-family: var(--font-google-sans);
-  }
-  .masalaDetails,
-  .masalaDetailsWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .masalaDetails {
-    justify-content: flex-start;
-    gap: var(--gap-xs);
-  }
-  .masalaDetailsWrapper {
-    justify-content: flex-end;
-    padding: 0 0 var(--padding-10xs);
-  }
-  .frameGroup,
-  .muhsroom,
-  .muhsroomInner {
-    display: flex;
-    justify-content: flex-start;
-  }
-  .frameGroup {
-    flex: 1;
-    border-radius: 10px;
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .muhsroom,
-  .muhsroomInner {
-    align-items: flex-start;
-    text-align: left;
-    font-family: var(--font-bricolage-grotesque-48pt);
-  }
-  .muhsroomInner {
-    align-self: stretch;
-    flex-direction: row;
-    padding: 0 var(--padding-2xs) 0 var(--padding-xs);
-    font-size: 16px;
-    color: var(--color-black);
-  }
-  .muhsroom {
-    width: 100%;
-    position: relative;
-    background-color: var(--color-white);
-    overflow: hidden;
-    flex-direction: column;
-    padding: var(--padding-xs) var(--padding-5xl) 487px;
-    box-sizing: border-box;
-    gap: var(--gap-xs);
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: var(--font-size-9xl);
-    color: var(--color-darkorange-100);
-  }
+  
+}

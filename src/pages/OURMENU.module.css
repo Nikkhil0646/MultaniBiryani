@@ -44,6 +44,7 @@
   align-self: center;
   justify-content: center;
   margin-left: -25px;
+  padding-bottom: 45px;
 }
 
 .grid {
@@ -81,6 +82,9 @@
 .gridItem {
   border: 0;
   background-color: var(--color-white);
+  display: flex;
+  align-self: center;
+  justify-content: center;
   height: 187px;
   width: auto;
   outline: 0;
@@ -88,6 +92,18 @@
   position: relative;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-9xs);
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  
+  align-self: center;
+  position: relative;
+  object-fit: cover;
+  align-items: center;
+  z-index: 1;
 }
 
 /* Media query for screens larger than 767px */

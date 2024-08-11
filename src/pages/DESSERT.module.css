@@ -1,224 +1,534 @@
-.dessertChild {
-    width: 18px;
-    height: 13px;
-    position: relative;
-    display: none;
+.contentIcon {
+  width: 22px;
+  height: 20.8px;
+  position: relative;
+  object-fit: contain;
+}
+
+
+
+.ourMenu {
+  width: 100%;
+  height: 3129px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xl) 29px 98px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-bottom: 40px;
+}
+
+
+.ourMenu1 {
+  text-decoration: none;
+  height: 80px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  align-self: center;
+  font-size: 48px;
+}
+
+
+
+.menuTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: -25px;
+  padding-bottom: 45px;
+}
+
+.grid {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Align items to the start */
+  gap: 50px; /* Space between items */
+  width: 100%; /* Full width of the parent */
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.gridItemContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-bisque);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-lgi) var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-xs);
+  align-self: stretch; /* Ensure it stretches to fill the grid */
+}
+
+/* Individual grid item style */
+.gridItem {
+  border: 0;
+  background-color: var(--color-white);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 187px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-9xs);
+}
+
+.images {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  
+  align-self: center;
+  position: relative;
+  object-fit: cover;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Media query for screens larger than 767px */
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
+      max-width: calc(33.33% - 20px); /* Maintain the same width constraint */
   }
-  .arrowDownUndefinedGlyph {
-    width: 21px;
-    height: 21px;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: contain;
+
+  .ourMenu1{
+    font-size: 60px;
   }
-  .layout {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-7xs) 0 0;
+
+  .contentIcon {
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
   }
-  .dessert1 {
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 0.01em;
-    font-weight: 600;
-    color: inherit;
-    display: inline-block;
-    min-width: 98px;
+
+  .grid{
+    padding-top: 30px;
+    margin: -30px;
   }
-  .structure {
-    width: 205px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: var(--gap-xl);
+}
+
+
+.gridItemContainer{
+  max-width: 220px;
+}
+
+.contentIcon{
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 50px;
+  width: auto;
+}
+
+
+@media (min-width: 320px){
+  .contentIcon{
+    height: 40px;
+    margin-top: 13px;
+    margin-left: -5px;
+    margin-right: 25px;
   }
-  .itemCell {
-    align-self: stretch;
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-burlywood);
-    overflow: hidden;
-    flex-shrink: 0;
+}
+
+
+@media (min-width: 768px) {
+  .gridItemContainer {
+      flex: 1 1 calc(33.33% - 20px); /* Allow 3 items per row with gaps */
   }
-  .matkaPhirni {
-    text-decoration: none;
-    color: inherit;
-    min-width: 93px;
-    white-space: nowrap;
+
+}
+
+.grid{
+  margin-left: -10px;
+}
+
+.biryani {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.biryaniWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.rice {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  align-self: center;
+}
+.riceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mutton {
+  position: relative;
+  display: inline-block;
+  min-width: 73px;
+}
+
+.muttonWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-55xl) 0 var(--padding-54xl);
+}
+.chicken {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.chickenWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 var(--padding-50xl);
+}
+.panner {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+}
+
+
+
+.mushroom {
+  position: relative;
+  display: inline-block;
+  min-width: 110px;
+}
+.mushroomWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mixVeg {
+  position: relative;
+  display: inline-block;
+  min-width: 83px;
+}
+.mixVegWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mixVegWrapper {
+  flex-direction: row;
+  padding: 0 71px 0 66px;
+}
+.bread {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+}
+.breadWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.breadWrapper {
+  flex-direction: row;
+  padding: 0 71px 0 66px;
+}
+
+.dessert {
+  position: relative;
+  display: inline-block;
+  min-width: 80px;
+}
+.dessertWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 65px;
+}
+.drinks {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.drinksWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 81px 0 var(--padding-54xl);
+}
+
+.ourMenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+  
+
+
+
+.prices {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+  color: var(--color-darkorange-100);
+}
+.priceNameRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.kg,
+.kg1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+}
+.kg1 {
+  min-width: 18px;
+}
+.frameWrapper,
+.kgParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.kgParent{
+  width: 180px;
+}
+.kgParent {
+  flex: 1;
+  justify-content: space-between;
+}
+.frameWrapper {
+  width: 160px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.div,
+.div1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 46px;
+}
+.div1 {
+  min-width: 44px;
+}
+.parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -4px;
+  font-size: var(--font-size-base);
+  color: black;
+  font-family: var(--font-bricolage-grotesque-48pt);
+}
+.frameParent {
+  align-self: stretch;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  gap: 8pX;
+  font-family: var(--font-google-sans);
+}
+.biryaniTypeRowParent,
+.frameParent,
+.priceHeaderRow,
+.tableHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceHeaderRow {
+  width: 170px;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-darkorange-300);
+}
+.biryaniTypeRowParent,
+.tableHeader {
+  gap: var(--gap-7xs);
+}
+ 
+.navigation {
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkorange-100);
+  font-family: var(--font-bricolage-grotesque-48pt);
+  margin-left: -30px;
+}
+
+
+
+.biryaniWrapper,
+.riceWrapper,
+.muttonWrapper,
+.chickenWrapper,
+.pannerWrapper,
+.mushroomWrapper,
+.mixVegWrapper,
+.breadWrapper,
+.dessertWrapper,
+.drinksWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 355px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .div,
-  .matkaPhirni,
-  .prices {
-    position: relative;
-    display: inline-block;
+
+  .grid{
+    gap: 150px;
+    width: 290px;
   }
-  .prices {
-    text-decoration: none;
-    font-weight: 500;
-    color: inherit;
-    min-width: 19px;
+
+
+}
+
+
+@media (min-width: 425px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .div {
-    font-size: var(--font-size-xs);
-    font-weight: 600;
-    color: var(--color-darkorange-300);
-    min-width: 28px;
-    margin-top: -2px;
+
+  .grid{
+    gap: 150px;
+    width: 390px;
   }
-  .priceLabel {
-    flex-direction: column;
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .itemDetails,
-  .itemName,
-  .itemPrice,
-  .priceLabel {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+
+  .grid{
+    gap: 150px;
+    width: 1000px;
   }
-  .itemPrice {
-    flex-direction: row;
-    padding: 0 var(--padding-12xs);
-    font-size: var(--font-size-7xs);
+
+
+}
+
+.priceHeaderRow{
+  margin-top: 10px;
+}
+
+.div1{
+  margin-top: 5px;
+}
+
+@media (min-width: 1440px){
+  .contentIcon{
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 0px;
+    margin-right: 25px;
   }
-  .itemDetails,
-  .itemName {
-    flex-direction: column;
+
+  .grid{
+    gap: 150px;
+    width: 1400px;
   }
-  .itemName {
-    gap: var(--gap-mini);
-  }
-  .itemDetails {
-    padding: var(--padding-6xs) 0 0;
-  }
-  .itemRow,
-  .itemRowChild {
-    align-self: stretch;
-    overflow: hidden;
-  }
-  .itemRow {
-    flex: 1;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .itemRowChild {
-    width: 76px;
-    position: relative;
-    border-radius: var(--br-8xs);
-    background-color: var(--color-burlywood);
-    flex-shrink: 0;
-  }
-  .div1,
-  .dudhiHalwa,
-  .prices1 {
-    position: relative;
-    display: inline-block;
-  }
-  .dudhiHalwa {
-    margin: 0;
-    font-size: inherit;
-    font-weight: 400;
-    font-family: inherit;
-    min-width: 93px;
-    white-space: nowrap;
-  }
-  .div1,
-  .prices1 {
-    font-weight: 500;
-    min-width: 19px;
-  }
-  .div1 {
-    font-size: var(--font-size-xs);
-    font-weight: 600;
-    color: var(--color-darkorange-300);
-    min-width: 31px;
-    margin-top: -2px;
-  }
-  .pricesParent {
-    flex-direction: column;
-  }
-  .dudhiHalwaParent,
-  .frameWrapper,
-  .itemRowInner,
-  .pricesParent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frameWrapper {
-    flex-direction: row;
-    padding: 0 var(--padding-12xs);
-    font-size: var(--font-size-7xs);
-  }
-  .dudhiHalwaParent,
-  .itemRowInner {
-    flex-direction: column;
-  }
-  .dudhiHalwaParent {
-    gap: var(--gap-mini);
-  }
-  .itemRowInner {
-    padding: var(--padding-6xs) 0 0;
-  }
-  .itemRow1 {
-    align-self: stretch;
-    flex: 1;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-bisque);
-    overflow: hidden;
-    flex-direction: row;
-    padding: var(--padding-4xs);
-    gap: var(--gap-xs);
-  }
-  .container,
+  .biryani,
+  .rice,
+  .mutton,
+  .chicken,
+  .panner,
+  .mushroom,
+  .mixVeg,
+  .bread,
   .dessert,
-  .grid,
-  .itemRow1 {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+  .drinks {
+    font-size: 26px;
   }
-  .grid {
-    align-self: stretch;
-    flex: 1;
-    flex-direction: column;
-    gap: var(--gap-xl);
+
+
+  .priceNameRow {
+    font-size: 24px;
   }
-  .container,
-  .dessert {
-    box-sizing: border-box;
-    text-align: left;
-    font-family: var(--font-bricolage-grotesque-48pt);
+
+  .kgParent {
+    font-size: 18px;
   }
-  .container {
-    align-self: stretch;
-    height: 210px;
-    flex-direction: row;
-    padding: 0 var(--padding-2xs) 0 var(--padding-xs);
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
+
+  .parent {
+    font-size: 18px;
   }
-  .dessert {
-    width: 100%;
-    position: relative;
-    background-color: var(--color-white);
-    overflow: hidden;
-    flex-direction: column;
-    padding: var(--padding-xs) var(--padding-5xl) 372px;
-    gap: var(--gap-xs);
-    line-height: normal;
-    letter-spacing: normal;
-    font-size: var(--font-size-9xl);
-    color: var(--color-darkorange-100);
-  }
+}
+  

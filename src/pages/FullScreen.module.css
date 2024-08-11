@@ -248,6 +248,7 @@
 
   .bcd77feef1331310a33c161e0cc002Icon {
     height: 700px;
+    border-radius: 50px;
   }
 }
 
@@ -492,6 +493,8 @@
   justify-content: flex-start;
 }
 
+
+
 .reviewStars {
   display: flex;
   align-items: center;
@@ -537,7 +540,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-xs);
-  background: linear-gradient(102.66deg, #020202, transparent);
+  background: #ff7a00;
   border: 0.5px solid var(--color-white);
   box-sizing: border-box;
   align-items: center;
@@ -653,6 +656,18 @@
   padding: 0 10px;
 }
 
+.address{
+  color: #020202;
+}
+
+.website{
+  color: #020202;
+}
+
+.contact{
+  color: #020202;
+}
+
 .team,
 .teamWrapper {
   display: flex;
@@ -726,6 +741,7 @@
 
 .teamWrapper:hover .hoverContent {
   opacity: 1;
+  border-radius: 30px;
   /* Show on hover */
 }
 
@@ -734,10 +750,13 @@
   opacity: 0;
   /* Hide text on hover */
   transition-duration: 0.5s;
+  border-radius: 30px;
 }
 
 .teamWrapper:hover .bcd77feef1331310a33c161e0cc002Icon {
   filter: blur(5px);
+  border-radius: 30px;
+  
   /* Blur the background image */
 }
 
@@ -1008,6 +1027,7 @@
   z-index: 1;
   text-align: center;
   margin-right: 20px;
+  color: black;
 }
 
 .footerFormBackgroundParent,
@@ -1076,6 +1096,8 @@
   justify-content: flex-start;
 }
 
+
+
 .footerForm {
   padding-left: 20px;
   width: 170px;
@@ -1086,7 +1108,7 @@
 
 .footerBranding {
   align-self: stretch;
-  background-color: #ff7a00;
+  background-color: #ffffff;
   overflow: hidden;
   flex-direction: row;
   align-items: center;
@@ -1695,6 +1717,10 @@
   .comments{
     font-size: 8px;
   }
+
+  .review {
+    padding-top: 20px;
+  }
   
 }
 
@@ -1844,12 +1870,12 @@
   }
 
   .cameraSparklesUndefined {
-    height: 80px;
+    height: 60px;
     width: 80px;
   }
 
   .peopleUndefinedGlyphUn {
-    height: 80px;
+    height: 70px;
     width: 80px;
   }
 
@@ -1863,9 +1889,10 @@
   }
 
   .foodCakeUndefinedGlyph {
-    height: 90px;
-    width: 650px;
-    padding-bottom: 20px;
+    height: 120px;
+    width: 5000px;
+    margin-top: 5px;
+    padding-bottom: 0px;
   }
 
   .testimonialContent {
@@ -1873,7 +1900,7 @@
   }
 
   .relaxInStyle {
-    font-size: 34px;
+    font-size: 20px;
   }
 
   .hospitalitypart {
@@ -1882,15 +1909,16 @@
   }
 
   .hereAreSome {
-    font-size: 34px;
+    font-size: 20px;
   }
 
   .delights {
+    margin-top: -10px;
     padding-bottom: 18px;
   }
 
   .delightspart {
-    padding: 20px;
+    margin-top: -20px;
   }
 
   .reviewHeading {
@@ -1904,12 +1932,8 @@
     height: 300px;
   }
 
-  .reviewStars {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+  .review{
+    padding-bottom: 50px;
   }
 
   .androidSmall8 {
@@ -1922,10 +1946,15 @@
   }
 
 
+
   .writeReviewButtonBackground {
     border-radius: 20px;
+
   }
 
+  .testimonialContent{
+    margin-bottom: -10px;
+  }
 
   .writeAReview {
     padding: 5px;
@@ -1957,7 +1986,8 @@
   }
 
   .footerLogo {
-    width: 200px;
+    height: 1000px;
+    width: 400px;
   }
 
   .userCicrleIcon {
@@ -1965,18 +1995,17 @@
     width: 30px;
   }
 
-  .footerForm {
-    width: 400px;
-  }
+  
 
   .footerLogo {
     height: auto;
-    width: 120px;
+    width: 200px;
+    padding-right: -50px;
   }
 
   .multaniBiryaniMainLogo1 {
-    width: 100px;
-    height: 50px;
+    width: 550px;
+    height: 100px;
   }
 
   .address {
@@ -1989,7 +2018,7 @@
 
 
   .footerBranding{
-    height: 268px;
+    height: 290px;
     gap: 120px;
   }
 
@@ -1999,11 +2028,17 @@
     gap: 20px;
     margin-left: 180px;
     margin-right: -200px;
-    padding-right: 100px;
+    padding-right: 250px;
+    width: 350px;
   }
 
   .footerFormBackgroundParent {
     margin-top: 10px;
+
+  }
+
+  .footerLogo{
+    width: 260px;
   }
 
   .contact{
@@ -2018,28 +2053,32 @@
 
   .footerForm{
     margin-bottom: -60px;
+    margin-left: 150px;
+    padding-right:190px;
+    padding-left: 100px;
   }
 
   .socialIcons{
     height: 40px;
     width: 40px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .socialIcons1{
     padding-top: 10px;
     height: 40px;
     width: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 
   .socialIcons2{
     padding-top: 10px;
     height: 40px;
     width: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
+
 
 }
 
