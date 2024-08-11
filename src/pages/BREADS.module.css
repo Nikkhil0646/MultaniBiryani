@@ -225,7 +225,8 @@
 .panner {
   position: relative;
   display: inline-block;
-  min-width: 72px;
+  text-align: center;
+  min-width: 220px;
 }
 
 
@@ -550,3 +551,4 @@
   }
   
 }
+

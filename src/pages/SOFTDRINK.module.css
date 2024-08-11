@@ -225,7 +225,8 @@
 .panner {
   position: relative;
   display: inline-block;
-  min-width: 72px;
+  min-width: 222px;
+  text-align: center;
 }
 
 
@@ -233,7 +234,8 @@
 .mushroom {
   position: relative;
   display: inline-block;
-  min-width: 110px;
+  text-align: center;
+  min-width: 210px;
 }
 .mushroomWrapper {
   align-self: stretch;
