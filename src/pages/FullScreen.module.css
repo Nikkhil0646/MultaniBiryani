@@ -2087,3 +2087,14 @@
 
 }
 
+.address{
+  font: var(--font-google-sans);
+}
+
+.contact{
+  font: var(--font-google-sans);
+}
+
+.website{
+  font: var(--font-google-sans);
+}

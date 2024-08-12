@@ -15,7 +15,7 @@ const RICE = () => {
       </div>
       <main className={styles.navigation}>
         <div className={styles.menuTitle}>
-          <div className={styles.ourMenu1}>RICE</div>
+          <div className={styles.ourMenu1}>Rice</div>
         </div>
         <div className={styles.grid}>
           <div className={styles.gridItemContainer}>

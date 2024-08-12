@@ -15,7 +15,7 @@ const BIRYANI = () => {
       </div>
       <main className={styles.navigation}>
         <div className={styles.menuTitle}>
-          <div className={styles.ourMenu1}>BIRYANI</div>
+          <div className={styles.ourMenu1}>Biryani</div>
         </div>
         <div className={styles.grid}>
           <div className={styles.gridItemContainer}>
